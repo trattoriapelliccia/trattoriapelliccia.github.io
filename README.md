@@ -1,2 +1,2 @@
-# pelliccia.github.io
-Website for Tratttoria Pelliccia
+# trattoriapelliccia.github.io
+Website for Trattoria Pelliccia
