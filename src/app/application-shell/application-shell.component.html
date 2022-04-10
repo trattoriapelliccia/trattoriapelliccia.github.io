@@ -5,10 +5,43 @@
   <!-- HEADER -->
   <mat-toolbar color="primary" class="toolbar">
     <mat-toolbar-row>
-      <a mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
+      <a [ngClass]="mobileQuery.matches ? 'show-hamburger' : 'hide-hamburger'" mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
         <mat-icon>menu</mat-icon>
       </a>
-      <span class="spacer"></span>    
+      <div class="header-name">
+        <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
+      </div>
+      <span class="spacer"></span> 
+      <div class="desktop-header-navigation-links">
+        <a 
+          class="header-navigation-link" 
+          [ngClass]="activeTab == 'Home' ? 'active-tab' : ''" 
+          (click)="setActive('Home')">Home</a>
+        <a 
+          class="header-navigation-link" 
+          [ngClass]="activeTab == 'Menu' ? 'active-tab' : ''" 
+          (click)="setActive('Menu')">Menu</a>
+        <a 
+          class="header-navigation-link" 
+          [ngClass]="activeTab == 'About' ? 'active-tab' : ''"
+          (click)="setActive('About')">About</a>
+        <a 
+          class="header-navigation-link" 
+          [ngClass]="activeTab == 'Contact' ? 'active-tab' : ''" 
+          (click)="setActive('Contact')">Contact</a>
+          <a 
+          class="header-navigation-link" 
+          [ngClass]="activeTab == 'Gallery' ? 'active-tab' : ''" 
+          (click)="setActive('Gallery')">Gallery</a>
+      </div>  
+      <div class="header-icons">
+        <a class="icon-link-header" href="" aria-label="instagram">
+          <i class="side-logos-mobile fab fa-instagram"></i>
+        </a>
+        <a class="icon-link-header" href="" aria-label="yelp">
+          <i class="side-logos-mobile fab fa-yelp"></i>
+        </a>
+      </div> 
       <mat-icon (click)="openDialog()" (keydown.enter)="openDialog()" class="icon" tabindex="0">translate</mat-icon>
     </mat-toolbar-row>
   </mat-toolbar>
@@ -24,24 +57,9 @@
       [mode]="mobileQuery.matches ? 'over' : 'side'"
       [fixedInViewport]="mobileQuery.matches"
       fixedTopGap="56"
-      [opened]="!mobileQuery.matches"
+      [opened]="false"
       (click)="snav.toggle()"
     >
-      <div
-        class="header"
-        [ngClass]="'dark-mode-header'"
-      >
-        <a class="linked-in-link" href="">
-          <div class="profile-container">
-            <img class="profile-picture" src="../../assets/images/trattoriaFromSide.jpeg" alt="Profile Picture"/>
-          </div>
-          <div  class="signature-container">
-            <p class="signature" [ngClass]="mobileQuery.matches ? 'signature-mobile' : ''">
-              Trattoria Pelliccia
-            </p>
-          </div>
-        </a>
-      </div>
       <div class="links-logos-container">
         <div class="sidenav-left">
           <div class="spacer-sidenav"></div>

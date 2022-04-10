@@ -20,6 +20,7 @@ export class ApplicationShellComponent implements OnDestroy {
   private _mobileQueryListener: () => void;
   @ViewChild('snav', {static: false}) snav: ElementRef;
   language : string;
+  activeTab : string = 'Home';
 
   constructor(
       changeDetectorRef: ChangeDetectorRef,
@@ -45,6 +46,10 @@ export class ApplicationShellComponent implements OnDestroy {
         window.sessionStorage.setItem('language', this.language);
       }
     });
+  }
+
+  setActive(menuItem : string) {
+    this.activeTab = menuItem;
   }
 
   ngOnDestroy(): void {

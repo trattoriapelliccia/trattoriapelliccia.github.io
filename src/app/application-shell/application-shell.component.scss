@@ -43,14 +43,71 @@ h1.app-name {
   padding: 10px;
 }
 
+.header-name {
+  padding-left: 1rem;
+}
+
+.header-name-trattoria {
+  display: inline;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-name-pelliccia {
+  padding-left: .5rem;
+  font-size: 28px;
+  display: inline;
+  font-family: 'Noto Sans', cursive;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-top: .35rem;
+}
+
+.show-hamburger {
+  display: block;
+}
+
+.hide-hamburger {
+  display: none;
+}
+
 .icon {
-  padding: 0 0 0 2%;
+  padding: 0 0 0 1rem;
   cursor: pointer
 }
 
 .icon-link {
   text-decoration: none;
   color: inherit;
+}
+
+.icon-link-header {
+  transform: scale(.7);
+  padding-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.desktop-header-navigation-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-navigation-link {
+  cursor: pointer;
+  margin-left: 1rem;
+  font-weight: lighter;
+}
+
+.active-tab {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .is-mobile .toolbar {
@@ -81,6 +138,7 @@ h1.app-name {
 
 .links-logos-container {
   height: calc(95vh - 10px);
+  min-width: 250px;
   overflow: hidden;
 }
 
