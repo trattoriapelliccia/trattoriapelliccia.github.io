@@ -26,15 +26,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 3rem;
 }
 
-.welcome-message {
+.welcome-message-trattoria {
   font-size: 6em;
   color: #171717;
+  display: inline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0;
+}
+
+.welcome-message-pelliccia {
+  font-size: 7em;
+  color: #171717;
+  display: inline;
   font-weight: normal;
-  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Pinyon Script', cursive;
   margin-bottom: 0;
   margin-top: 2rem;
+  padding-left: 2rem;
 }
 
 .detail-message {
@@ -42,6 +53,6 @@
   font-size: 2em;
   text-align: center;
   color: #171717;
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Montserrat';
 }
