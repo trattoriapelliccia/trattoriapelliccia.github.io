@@ -1,24 +1,16 @@
 {
   "HOME": {
-    "MISSION": "Trattoria Pelliccia"
-  },
-  "ABOUT": {
-    "INTRO": "Hola mundo, mi nombre es",
-    "SCHOOL": "Ciencias de la Computación",
-    "WORK": "Desarrolladora de software en",
-    "EMAIL": "Por favor envíe todas sus consultas a",
-    "RESUME": "Currículum",
-    "WELCOME": "Bienvenidas"
+    "MISSION": "Especializado en la cusisina clásica de Pontremoli."
   },
   "MENU": {
     "HOME": "Casa",
-    "ABOUT": "Sobre",
-    "PROJECTS": "Proyectos",
-    "RESUME": "Currículum",
-    "CONTACT": "Contacto"
+    "MENU": "Menú",
+    "ABOUT": "About",
+    "CONTACT": "Sobre nosotros",
+    "GALLERY": "Galería"
   },
   "LANGUAGE": {
-    "SELECT": "Elige tu idioma",
+    "SELECT": "Elige tu idiomae",
     "CANCEL": "Cancelar",
     "UPDATE": "Actualizar",
     "LANGUAGE": "Español"

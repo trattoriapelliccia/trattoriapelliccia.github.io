@@ -1,0 +1,18 @@
+{
+    "HOME": {
+      "MISSION": "Spezialisiert auf die klassische Küche von Pontremoli."
+    },
+    "MENU": {
+      "HOME": "Heim",
+      "MENU": "Speisekarte",
+      "ABOUT": "Über",
+      "CONTACT": "Kontakt",
+      "GALLERY": "Galerie"
+    },
+    "LANGUAGE": {
+      "SELECT": "Wähle deine Sprache",
+      "CANCEL": "Cancel",
+      "UPDATE": "Absagen",
+      "LANGUAGE": "Deutsch"
+    }
+  }

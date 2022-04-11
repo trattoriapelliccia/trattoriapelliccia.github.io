@@ -1,26 +1,18 @@
 {
   "HOME": {
-    "MISSION": "Trattoria Pelliccia"
-  },
-  "ABOUT": {
-    "INTRO": "Bonjour tout le monde, mon nom est",
-    "SCHOOL": "L'informatique",
-    "WORK": "Développeur logiciel chez",
-    "EMAIL": "Veuillez envoyer toutes vos demandes à",
-    "RESUME": "C.V.",
-    "WELCOME": "Bienvenue"
+    "MISSION": "Spécialisé dans la cuisine classique de Pontremoli."
   },
   "MENU": {
-    "HOME": "Accueil",
-    "ABOUT": "Sur",
-    "PROJECTS": "Projets",
-    "RESUME": "C.V.",
-    "CONTACT": "Contacter"
+    "HOME": "Domicile",
+    "MENU": "Menu",
+    "ABOUT": "À propos de nous",
+    "CONTACT": "Contacter",
+    "GALLERY": "Galerie"
   },
   "LANGUAGE": {
     "SELECT": "Choisissez votre langue",
     "CANCEL": "Annuler",
-    "UPDATE": "Mettre à jour",
+    "UPDATE": "Mise à jour",
     "LANGUAGE": "Français"
   }
 }
