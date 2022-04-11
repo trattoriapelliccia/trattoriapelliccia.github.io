@@ -8,6 +8,8 @@ import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dial
 })
 export class LanguageDialogComponent {
  languages = [
+    {value: 'it', viewValue: 'Italiano'},
+    {value: 'de', viewValue: 'Deutsch'},
     {value: 'en', viewValue: 'English'},
     {value: 'fr', viewValue: 'Français'},
     {value: 'ar', viewValue: 'عربى'},

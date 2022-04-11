@@ -1,24 +1,16 @@
 {
   "HOME": {
-    "MISSION": "Trattoria Pelliccia"
-  },
-  "ABOUT": {
-    "INTRO": "こんにちは世界、私の名前は",
-    "SCHOOL": "コンピュータサイエンス",
-    "WORK": "ソフトウェア開発者",
-    "EMAIL": "お問い合わせはこちらまで",
-    "RESUME": "履歴書",
-    "WELCOME": "ようこそ"
+    "MISSION": "ポントレモリの古典的な料理を専門としています。"
   },
   "MENU": {
-    "HOME": "ホーム",
+    "HOME": "家",
+    "MENU": "メニュー",
     "ABOUT": "約",
-    "PROJECTS": "プロジェクト",
-    "RESUME": "履歴書",
-    "CONTACT": "連絡先"
+    "CONTACT": "コンタクト",
+    "GALLERY": "ギャラリー"
   },
   "LANGUAGE": {
-    "SELECT": "言語を選択",
+    "SELECT": "あなたが使う言語を選んでください",
     "CANCEL": "キャンセル",
     "UPDATE": "アップデート",
     "LANGUAGE": "日本"

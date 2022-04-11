@@ -5,7 +5,6 @@
   flex-basis: 100%;
   height: 100vh;
   background-image: url("../../assets/images/pontremoliFull.jpeg");
-  background-repeat: no-repeat, repeat;
   background-size: cover;
 }
 
@@ -22,16 +21,23 @@
   position: relative;
 }
 
-.welcome-message-container {
+.text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 3rem;
 }
 
+.welcome-message-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .welcome-message-trattoria {
   font-size: 6em;
-  color: #171717;
+  color: #ef5777;
   display: inline;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 0;
@@ -39,12 +45,11 @@
 
 .welcome-message-pelliccia {
   font-size: 7em;
-  color: #171717;
+  color: #ef5777;
   display: inline;
   font-weight: normal;
   font-family: 'Pinyon Script', cursive;
   margin-bottom: 0;
-  margin-top: 2rem;
   padding-left: 2rem;
 }
 
@@ -52,7 +57,132 @@
   margin-top: 0;
   font-size: 2em;
   text-align: center;
-  color: #171717;
+  color: #ffffff;
   font-weight: bold;
   font-family: 'Montserrat';
 }
+
+// tablet
+@media screen and (max-width: 910px) {
+  .home-background {
+    max-height: calc(100vh - 56px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-basis: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/pontremoliFullTablet.jpeg");
+    background-size: cover;
+  }
+
+  .welcome-message-trattoria {
+    font-size: 60px;
+    color: #ef5777;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+  }
+  
+  .welcome-message-pelliccia {
+    font-size: 70px;
+    color: #ef5777;
+    display: inline;
+    font-weight: normal;
+    font-family: 'Pinyon Script', cursive;
+    margin-bottom: 0;
+    padding-left: 2rem;
+  }
+
+  .detail-message {
+    margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+}
+
+// phone
+@media screen and (max-width: 581px) {
+  .home-background {
+    max-height: calc(100vh - 56px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-basis: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
+    background-size: cover;
+  }
+
+  .welcome-message-trattoria {
+    font-size: 60px;
+    color: #ef5777;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+  }
+  
+  .welcome-message-pelliccia {
+    font-size: 80px;
+    color: #ef5777;
+    display: inline;
+    font-weight: normal;
+    font-family: 'Pinyon Script', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 2rem;
+  }
+
+  .detail-message {
+    margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat';
+  }
+}
+
+// v small phone
+@media screen and (max-width: 360px) {
+  .home-background {
+    max-height: calc(100vh - 56px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-basis: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
+    background-size: cover;
+  }
+
+  .welcome-message-trattoria {
+    font-size: 60px;
+    color: #ef5777;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+  }
+  
+  .welcome-message-pelliccia {
+    font-size: 80px;
+    color: #ef5777;
+    display: inline;
+    font-weight: normal;
+    font-family: 'Pinyon Script', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 2rem;
+  }
+
+  .detail-message {
+    margin-top: 0;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+}
+
+
+

@@ -8,8 +8,10 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent{
   languageList = [
+    { code: 'it', label: 'Italiano' },
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Espanol' },
+    { code: 'de', label: 'Deutsch' },
     { code: 'fr', label: 'Français' },
     { code: 'zh', label: '中文' },
     { code: 'ja', label: '日本語' },
@@ -17,10 +19,10 @@ export class AppComponent{
   ];
 
   constructor(@Inject(LOCALE_ID) protected localeId: string, private translate: TranslateService) {
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('it');
     const browserLang = translate.getBrowserLang();
     const sessionLang = window.sessionStorage.getItem('language');
-    const lang = !!sessionLang ? sessionLang : browserLang.match(/en|fr|es|zh|ja|ar/) ? browserLang : 'en';
+    const lang = !!sessionLang ? sessionLang : browserLang.match(/en|it|de|fr|es|zh|ja|ar/) ? browserLang : 'en';
     translate.use(lang);
   }
 }

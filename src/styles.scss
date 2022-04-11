@@ -11,3 +11,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 
 .mat-toolbar-row {
   background-color: #171717;
 }
+
+@media screen and (min-width: 901px) {
+  .mat-toolbar.mat-primary {
+    position: fixed;
+    z-index: 2;
+    background-color: #171717;
+  }
+  
+  .mat-drawer-content {
+    top: 64px;
+  }
+}

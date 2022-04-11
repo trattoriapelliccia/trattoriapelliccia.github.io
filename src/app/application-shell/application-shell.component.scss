@@ -68,11 +68,11 @@ h1.app-name {
   padding-top: .35rem;
 }
 
-.show-hamburger {
+.show {
   display: block;
 }
 
-.hide-hamburger {
+.hide {
   display: none;
 }
 
@@ -193,7 +193,11 @@ h1.app-name {
 }
 
 .sidenav-right-darkmode {
-  background-color: black;
+  background-color: #ef5777;
+}
+
+.sidenav-menu-item {
+  font-weight: lighter;
 }
 
 .signature {

@@ -1,21 +1,13 @@
 {
   "HOME": {
-    "MISSION": "Trattoria Pelliccia"
-  },
-  "ABOUT": {
-    "INTRO": "Hello World, my name is",
-    "SCHOOL": "Computer Science",
-    "WORK": "Software Developer at",
-    "EMAIL": "Please send all inquiries to",
-    "RESUME": "Resume",
-    "WELCOME": "Welcome"
+    "MISSION": "Specializing in the classical cusisine of Pontremoli."
   },
   "MENU": {
     "HOME": "Home",
+    "MENU": "Menu",
     "ABOUT": "About",
-    "PROJECTS": "Projects",
-    "RESUME": "Resume",
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "GALLERY": "Gallery"
   },
   "LANGUAGE": {
     "SELECT": "Select your language",
