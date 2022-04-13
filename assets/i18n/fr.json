@@ -7,7 +7,9 @@
     "MENU": "Menu",
     "ABOUT": "À propos de nous",
     "CONTACT": "Contacter",
-    "GALLERY": "Galerie"
+    "GALLERY": "Galerie",
+    "MAIN_COURSES": "Plats Principaux",
+    "DESSERT": "Dessert"
   },
   "LANGUAGE": {
     "SELECT": "Choisissez votre langue",

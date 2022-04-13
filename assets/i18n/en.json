@@ -7,7 +7,9 @@
     "MENU": "Menu",
     "ABOUT": "About",
     "CONTACT": "Contact",
-    "GALLERY": "Gallery"
+    "GALLERY": "Gallery",
+    "MAIN_COURSES": "Main Courses",
+    "DESSERT": "Dessert"
   },
   "LANGUAGE": {
     "SELECT": "Select your language",

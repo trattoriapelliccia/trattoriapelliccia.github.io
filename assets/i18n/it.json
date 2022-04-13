@@ -1,13 +1,15 @@
 {
     "HOME": {
-      "MISSION": "Specializzato nella cucina classica di Pontremoli."
+      "MISSION": "Specializzato nella cucina classica pontremolese."
     },
     "MENU": {
       "HOME": "Casa",
       "MENU": "Menù",
       "ABOUT": "Chi siamo",
       "CONTACT": "Contatto",
-      "GALLERY": "Galleria"
+      "GALLERY": "Galleria",
+      "MAIN_COURSES": "Piatti Principali",
+      "DESSERT": "Dessert"
     },
     "LANGUAGE": {
       "SELECT": "Seleziona la tua lingua",

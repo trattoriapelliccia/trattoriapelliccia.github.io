@@ -1,13 +1,15 @@
 {
   "HOME": {
-    "MISSION": "专门从事 Pontremoli 的经典美食。"
+    "MISSION": "擅长 Pontremoli 的经典美食。"
   },
   "MENU": {
     "HOME": "家",
     "MENU": "菜单",
     "ABOUT": "关于",
     "CONTACT": "接触",
-    "GALLERY": "画廊"
+    "GALLERY": "画廊",
+    "MAIN_COURSES": "主修课",
+    "DESSERT": "甜点"
   },
   "LANGUAGE": {
     "SELECT": "选择你的语言",
