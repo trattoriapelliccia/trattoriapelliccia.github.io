@@ -7,7 +7,9 @@
       "MENU": "Speisekarte",
       "ABOUT": "Über",
       "CONTACT": "Kontakt",
-      "GALLERY": "Galerie"
+      "GALLERY": "Galerie",
+      "MAIN_COURSES": "Hauptgänge",
+      "DESSERT": "Nachtisch"
     },
     "LANGUAGE": {
       "SELECT": "Wähle deine Sprache",

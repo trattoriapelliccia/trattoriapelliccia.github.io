@@ -7,7 +7,9 @@
     "MENU": "メニュー",
     "ABOUT": "約",
     "CONTACT": "コンタクト",
-    "GALLERY": "ギャラリー"
+    "GALLERY": "ギャラリー",
+    "MAIN_COURSES": "メインディッシュ",
+    "DESSERT": "デザート"
   },
   "LANGUAGE": {
     "SELECT": "あなたが使う言語を選んでください",

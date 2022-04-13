@@ -1,13 +1,15 @@
 {
   "HOME": {
-    "MISSION": "Especializado en la cusisina clásica de Pontremoli."
+    "MISSION": "Especializado en la cocina clásica de pontremoli."
   },
   "MENU": {
     "HOME": "Casa",
     "MENU": "Menú",
     "ABOUT": "About",
     "CONTACT": "Sobre nosotros",
-    "GALLERY": "Galería"
+    "GALLERY": "Galería",
+    "MAIN_COURSES": "Platos Principales",
+    "DESSERT": "Postre"
   },
   "LANGUAGE": {
     "SELECT": "Elige tu idiomae",

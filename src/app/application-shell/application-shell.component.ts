@@ -3,12 +3,14 @@ import {
     ChangeDetectorRef,
     ElementRef,
     ViewChild,
-    OnDestroy
+    OnDestroy,
+    NgZone
 } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { MatDialog } from '@angular/material/dialog';
 import { LanguageDialogComponent } from '../language-dialog/language-dialog.component';
 import { TranslateService } from '@ngx-translate/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'application-shell',
@@ -20,13 +22,15 @@ export class ApplicationShellComponent implements OnDestroy {
   private _mobileQueryListener: () => void;
   @ViewChild('snav', {static: false}) snav: ElementRef;
   language : string;
-  activeTab : string = 'Home';
+  activeTab : string = sessionStorage.getItem('activeTab') || 'Home';
 
   constructor(
       changeDetectorRef: ChangeDetectorRef,
       media: MediaMatcher,
       public dialog: MatDialog,
-      private translate: TranslateService
+      private translate: TranslateService,
+      public zone: NgZone,
+      public router: Router
   ) {
     this.mobileQuery = media.matchMedia('(max-width: 900px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
@@ -48,8 +52,12 @@ export class ApplicationShellComponent implements OnDestroy {
     });
   }
 
-  setActive(menuItem : string) {
-    this.activeTab = menuItem;
+  navigate(menuItem: string) {
+    this.zone.run(() => { 
+      this.router.navigate(['/' + menuItem]); 
+      this.activeTab = menuItem;
+      sessionStorage.setItem('activeTab', menuItem);
+    });
   }
 
   ngOnDestroy(): void {

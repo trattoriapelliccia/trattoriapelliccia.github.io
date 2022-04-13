@@ -105,7 +105,13 @@ h1.app-name {
   font-weight: lighter;
 }
 
+.non-active-tab {
+  color: white;
+  text-decoration: none;
+}
+
 .active-tab {
+  color: white;
   text-decoration: underline;
   text-underline-position: under;
 }

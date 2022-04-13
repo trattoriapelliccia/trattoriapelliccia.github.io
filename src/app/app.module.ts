@@ -19,6 +19,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { TranslateService } from '@ngx-translate/core';
+import { MenuComponent } from './menu/menu.component';
+import { ContactComponent } from './contact/contact.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +29,10 @@ import { TranslateService } from '@ngx-translate/core';
         ApplicationShellComponent,
         AboutComponent,
         LanguageDialogComponent,
-        HomeComponent
+        HomeComponent,
+        MenuComponent,
+        ContactComponent,
+        GalleryComponent
     ],
     imports: [
         BrowserModule,
