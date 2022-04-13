@@ -5,11 +5,25 @@
   "MENU": {
     "HOME": "Casa",
     "MENU": "Menú",
-    "ABOUT": "About",
-    "CONTACT": "Sobre nosotros",
+    "ABOUT": "Sobre nosotros",
+    "CONTACT": "Contacto",
     "GALLERY": "Galería",
     "MAIN_COURSES": "Platos Principales",
     "DESSERT": "Postre"
+  },
+  "CONTACT": {
+    "CONTACT": "Contacto",
+    "ADDRESS": "Dirección",
+    "PHONEANDEMAIL": "Teléfono y Correo Electrónico",
+    "HOURS": "Horas de Operación"
+  },
+  "ABOUT": {
+    "ABOUT_US": "Quienes somos",
+    "INTRO_OPENER": "Situado",
+    "INTRO_ONE": " en Val di Magra, Pontremoli, durante cientos de años, se sentó a horcajadas sobre un importante enlace comercial que conectaba la costa mediterránea con el interior europeo. En consecuencia, la cocina de Pontremoli refleja diferentes influencias de la Toscana, Liguria y Emilia-Romaña.",
+    "INTRO_TWO": "En Antica Trattoria Pelliccia, lo invitamos a unirse a nosotros para celebrar ese variado patrimonio culinario con un menú que evoluciona según la temporada y presenta lo mejor de estas cocinas.",
+    "DETAIL_ONE": "Pontremoli, situada a lo largo de la Cisa, una importante vía de conexión entre el norte y el sur desde la época romana, es una ciudad rica en historia y monumentos, como el castillo de Piagnaro (lepiagne son losas de pizarra para techar), la iglesia de Nostra Donna, una obra maestra del barroco toscano, y el Museo de las estatuas-estelas, testimonio de las antiguas poblaciones ligures-apuanas. Hoy Pontremoli es conocida como la patria de los libreros y el Premio Bancarella, pero también como un lugar de gastronomía lunigiana muy especial. Pelliccia es un lugar acogedor, ubicado al norte del centro histórico, donde la esmerada gestión de Veronica Tosi y su familia ofrece una cuidada cocina con productos típicos locales, especialidades de hongos de temporada y el tierno cordero de raza Zerasca originario de Lunigiana.",
+    "DETAIL_TWO": "No olvides el testaroli con pesto de pontrámola y muchas otras especialidades gastronómicas que enriquecen la carta todos los días. El servicio de comedor es excelente, profesional y familiar a la vez. La lista de vinos es muy variada y ofrece etiquetas de toda Italia. Menú degustación, tematizado y oferta de platos sin gluten."
   },
   "LANGUAGE": {
     "SELECT": "Elige tu idiomae",

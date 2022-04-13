@@ -11,6 +11,20 @@
       "MAIN_COURSES": "Piatti Principali",
       "DESSERT": "Dessert"
     },
+    "CONTACT": {
+      "CONTACT": "Contatto",
+      "ADDRESS": "Posizione",
+      "PHONEANDEMAIL": "Telefono ed E-mail",
+      "HOURS": "Orario di Apertura"
+    },
+    "ABOUT": {
+      "ABOUT_US": "Chi siamo",
+      "INTRO_OPENER": "Situata",
+      "INTRO_ONE": " nella Val di Magra, Pontremoli, per centinaia di anni, è stata a cavallo di un importante collegamento commerciale che collegava la costa mediterranea con l'entroterra europeo. Di conseguenza, la cucina di Pontremoli riflette diverse influenze della Toscana, della Liguria e dell'Emilia-Romagna.",
+      "INTRO_TWO": "All'Antica Trattoria Pelliccia, vi invitiamo a unirvi a noi per celebrare quel variegato patrimonio culinario con un menu in evoluzione stagionale con il meglio di queste cucine.",
+      "DETAIL_ONE": "Pontremoli, posta lungo la Cisa, importante strada di collegamento tra Norde Sud fin dall'epoca romana, è ena città ricca di storia e monumenti, come il castello del Piagnaro (lepiagne sono lastre di ardesia per la copertura dei tetti), la chiesa di Nostra Donna, capolavoro del Barocco toscano, e il Museo delle Statue-stele, testimonianze di antiche popolazioni liguri-apuane. Oggi Pontremoli è nota come patria dei librai e del Premio Bancarella, ma anche come luogo di specialissima gastronomia della Lunigiana. Pelliccia è un locale  accogliente, situato a Nord del centro storico, dove l'attenta gestione di Veronica Tosi e famiglia offre una cucina accurata con prodotti tipici locali, specialità di funghi in stagione e il tenero agnello della razza zerasca originaria della Lunigiana.",
+      "DETAIL_TWO": "Da non dimenticare i testaroli al pesto pontrmolese e tante altre specialità gastronomiche che giornalmente arricchiscono il menu. Ottimo il servizio di sala, professionale e familiare all stesso tempo. Molto varia la carta dei vini che propone etichette di tutta Italia. Menu degustazione, a tema, e offerta di piatti senza glutine."
+    },
     "LANGUAGE": {
       "SELECT": "Seleziona la tua lingua",
       "CANCEL": "Annulla",

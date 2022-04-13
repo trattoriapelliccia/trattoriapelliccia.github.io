@@ -10,6 +10,20 @@
     "GALLERY": "Gallery",
     "MAIN_COURSES": "Main Courses",
     "DESSERT": "Dessert"
+  }, 
+  "CONTACT": {
+    "CONTACT": "Contact",
+    "ADDRESS": "Address",
+    "PHONEANDEMAIL": "Phone and Email",
+    "HOURS": "Hours of Operation"
+  },
+  "ABOUT": {
+    "ABOUT_US": "About Us",
+    "INTRO_OPENER": "Situated",
+    "INTRO_ONE": " in the Val di Magra, Pontremoli, for hundreds of years, sat astride a key trading link connecting the Medditeranean coastland and the European inland. As a result, the cuisine of Pontremoli reflects diverse influences from Tuscany, Liguria and Emilia-Romagna. ",
+    "INTRO_TWO": "At Antica Trattoria Pelliccia, we invite you to join us in celebrating that diverse culinary heritage with a seasonally evolving menu featuring the best of these cuisines.",
+    "DETAIL_ONE": "Pontremoli, located along the Cisa, an important connection road between North and South since Roman times, is a city rich in history and monuments, such as the Piagnaro castle (lepiagne are slate slabs for roofing), the church of Nostra Donna, a masterpiece of the Tuscan Baroque, and the Museum of Statue-steles, evidence of ancient Ligurian-Apuan populations. Today Pontremoli is known as the homeland of booksellers and the Bancarella Award, but also as a place of very special Lunigiana gastronomy. Pelliccia is a welcoming place, located north of the historic center, where the careful management of Veronica Tosi and her family offers an accurate cuisine with typical local products, seasonal mushroom specialties and the tender lamb of the Zerasca breed originating from Lunigiana.",
+    "DETAIL_TWO": "Do not forget the testaroli with Pontrmola pesto and many other gastronomic specialties that enrich the menu every day. The dining room service is excellent, professional and familiar at the same time. The wine list is very varied, offering labels from all over Italy. Tasting menu, themed, and offer of gluten-free dishes."
   },
   "LANGUAGE": {
     "SELECT": "Select your language",
