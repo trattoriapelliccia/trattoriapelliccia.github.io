@@ -11,6 +11,20 @@
       "MAIN_COURSES": "Hauptgänge",
       "DESSERT": "Nachtisch"
     },
+    "CONTACT": {
+      "CONTACT": "Kontakt",
+      "ADDRESS": "Die Anschrift",
+      "PHONEANDEMAIL": "Telefon und E-Mail",
+      "HOURS": "Die Arbeitszeit"
+    },
+    "ABOUT": {
+      "ABOUT_US": "Wer wir sind",
+      "INTRO_OPENER": "Gelegen",
+      "INTRO_ONE": " im Val di Magra, Pontremoli, überspannte jahrhundertelang eine wichtige Handelsverbindung, die die Mittelmeerküste mit dem europäischen Hinterland verband. Folglich spiegelt die Küche von Pontremoli unterschiedliche Einflüsse aus der Toskana, Ligurien und der Emilia-Romagna wider.",
+      "INTRO_TWO": "In der Antica Trattoria Pelliccia laden wir Sie ein, gemeinsam mit uns dieses abwechslungsreiche kulinarische Erbe mit einem saisonal wechselnden Menü mit den besten dieser Küchen zu feiern.",
+      "DETAIL_ONE": "Pontremoli, an der Cisa gelegen, seit der Römerzeit eine wichtige Verbindungsstraße zwischen Nord und Süd, ist eine Stadt, die reich an Geschichte und Denkmälern ist, wie das Schloss Piagnaro (lepiagne sind Schieferplatten für Dächer), die Kirche Nostra Donna, ein Meisterwerk des toskanischen Barocks und das Museum der Statuenstelen, Zeugnisse der alten ligurisch-apuanischen Bevölkerung. Heute ist Pontremoli als Heimat der Buchhändler und des Bancarella-Preises bekannt, aber auch als Ort der ganz besonderen Lunigiana-Gastronomie. Pelliccia ist ein einladender Ort nördlich des historischen Zentrums, wo die sorgfältige Führung von Veronica Tosi und ihrer Familie eine sorgfältige Küche mit typischen lokalen Produkten, saisonalen Pilzspezialitäten und dem zarten Lamm der aus Lunigiana stammenden Zerasca-Rasse bietet.",
+      "DETAIL_TWO": "Vergessen Sie nicht die Testaroli mit Pontrmola-Pesto und viele andere gastronomische Spezialitäten, die das Menü jeden Tag bereichern. Der Service im Speisesaal ist ausgezeichnet, professionell und familiär zugleich. Die Weinkarte ist sehr abwechslungsreich und bietet Etiketten aus ganz Italien. Degustationsmenü, Themen und Angebot an glutenfreien Gerichten."
+    },
     "LANGUAGE": {
       "SELECT": "Wähle deine Sprache",
       "CANCEL": "Cancel",

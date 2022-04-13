@@ -11,6 +11,20 @@
     "MAIN_COURSES": "主修课",
     "DESSERT": "甜点"
   },
+  "CONTACT": {
+    "CONTACT": "接触",
+    "ADDRESS": "地点",
+    "PHONEANDEMAIL": "电话和电子邮件",
+    "HOURS": "营业时间"
+  },
+  "ABOUT": {
+    "ABOUT_US": "我们是谁",
+    "INTRO_OPENER": "位于",
+    "INTRO_ONE": " 数百年来，蓬特雷莫利 (Pontremoli) 横跨马格拉河谷，横跨连接地中海沿岸和欧洲腹地的重要商业纽带。因此，庞特雷莫利的美食反映了来自托斯卡纳、利古里亚和艾米利亚-罗马涅的不同影响。",
+    "INTRO_TWO": "在 Antica Trattoria Pelliccia，我们邀请您与我们一起庆祝多样化的烹饪传统，并提供季节性变化的菜单，其中包含这些美食中最好的。",
+    "DETAIL_ONE": "Pontremoli 位于西萨沿线，自罗马时代以来就是南北连接的重要道路，是一座历史悠久、古迹众多的城市，如 Piagnaro 城堡（lepiagne 是用于屋顶的石板）、杰作 Nostra Donna 教堂托斯卡纳巴洛克和雕像碑博物馆，古代利古里亚 - 阿普安人口的证据。今天，蓬特雷莫利被称为书商和班卡雷拉奖的故乡，也是一个非常特别的 Lunigiana 美食之地。 Pelliccia 是一个热情好客的地方，位于历史中心的北部，Veronica Tosi 和她的家人在这里精心管理，提供采用典型当地产品、时令蘑菇特色菜和来自 Lunigiana 的 Zerasca 品种的嫩羊肉的准确美食。",
+    "DETAIL_TWO": "不要忘记带有 Pontremoli 香蒜酱和许多其他美食特色的 testaroli，它们每天都丰富了菜单。餐厅服务一流、专业且熟悉。酒单种类繁多，提供来自意大利各地的标签。品尝菜单、主题和无麸质菜肴。"
+  },
   "LANGUAGE": {
     "SELECT": "选择你的语言",
     "CANCEL": "取消",
