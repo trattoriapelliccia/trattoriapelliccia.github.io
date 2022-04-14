@@ -5,12 +5,12 @@
     <mat-select [(value)]="data.language">
       <a style="text-decoration: none" *ngFor="let language of languages">
         <mat-option [value]="language.value">
-          {{language.viewValue}}
+          <span [ngClass]="'flag-icon flag-icon-' + processLanguageCode(language.value)"></span>&nbsp;&nbsp;{{language.viewValue}}
         </mat-option>
       </a>
     </mat-select>
   </mat-form-field>
 </div>
-<div mat-dialog-actions>
+<div mat-dialog-actions class="language-update-container">
   <button mat-button [mat-dialog-close]="data.language" cdkFocusInitial>{{'LANGUAGE.UPDATE' | translate }}</button>
 </div>

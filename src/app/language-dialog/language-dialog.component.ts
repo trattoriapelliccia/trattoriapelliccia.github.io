@@ -18,6 +18,27 @@ export class LanguageDialogComponent {
     {value: 'zh', viewValue: '中文'}
   ];
 
+  processLanguageCode(language : string) {
+    switch (language) {
+      case "en":
+        return "gb"
+      case "ja":
+        return "jp";
+      case "es":
+        return "es"
+      case "zh":
+        return "cn"
+      case "fr":
+        return "fr"
+      case "it":
+        return "it"
+      case "de":
+        return "de"
+      case "nl":
+        return "nl"
+    }  
+  }
+
    constructor(
     public dialogRef: MatDialogRef<LanguageDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data) {}
