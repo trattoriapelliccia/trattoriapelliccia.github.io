@@ -22,6 +22,7 @@ export class ApplicationShellComponent implements OnDestroy {
   private _mobileQueryListener: () => void;
   @ViewChild('snav', {static: false}) snav: ElementRef;
   language : string;
+  languageCode: string;
   activeTab : string = sessionStorage.getItem('activeTab') || 'Home';
 
   constructor(
@@ -35,6 +36,29 @@ export class ApplicationShellComponent implements OnDestroy {
     this.mobileQuery = media.matchMedia('(max-width: 900px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
+    this.language = this.translate.currentLang;
+    this.languageCode = this.processLanguageCode(this.language);
+  }
+
+  processLanguageCode(language : string) {
+    switch (language) {
+      case "en":
+        return "gb"
+      case "ja":
+        return "jp";
+      case "es":
+        return "es"
+      case "zh":
+        return "cn"
+      case "fr":
+        return "fr"
+      case "it":
+        return "it"
+      case "de":
+        return "de"
+      case "nl":
+        return "nl"
+    }  
   }
 
   openDialog(): void {
@@ -44,8 +68,9 @@ export class ApplicationShellComponent implements OnDestroy {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      this.language = result;
-      if (!!this.language) {
+      if (!!result) {
+        this.language = result;
+        this.languageCode = this.processLanguageCode(this.language);
         this.translate.use(this.language);
         window.sessionStorage.setItem('language', this.language);
       }

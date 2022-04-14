@@ -1,0 +1,34 @@
+{
+    "HOME": {
+      "MISSION": "Gespecialiseerd in de klassieke keuken van Pontremoli."
+    },
+    "MENU": {
+      "HOME": "Thuis",
+      "MENU": "Menu",
+      "ABOUT": "Wat betreft",
+      "CONTACT": "Contact",
+      "GALLERY": "Galerij",
+      "MAIN_COURSES": "Hoofd gerechten",
+      "DESSERT": "Toetje"
+    }, 
+    "CONTACT": {
+      "CONTACT": "Contact",
+      "ADDRESS": "Adres",
+      "PHONEANDEMAIL": "Telefoon en e-mail",
+      "HOURS": "Openingstijden"
+    },
+    "ABOUT": {
+      "ABOUT_US": "Over ons",
+      "INTRO_OPENER": "Gelegen",
+      "INTRO_ONE": " in de Val di Magra, Pontremoli, zat honderden jaren schrijlings op een belangrijke handelsverbinding tussen de Middellandse Zeekust en het Europese binnenland. Als gevolg hiervan weerspiegelt de keuken van Pontremoli diverse invloeden uit Toscane, Ligurië en Emilia-Romagna.",
+      "INTRO_TWO": "Bij Antica Trattoria Pelliccia nodigen we u uit om samen met ons dat gevarieerde culinaire erfgoed te vieren met een seizoensgebonden menu met de beste van deze keukens.",
+      "DETAIL_ONE": "Pontremoli, gelegen langs de Cisa, een belangrijke verbindingsweg tussen Noord en Zuid sinds de Romeinse tijd, is een stad rijk aan geschiedenis en monumenten, zoals het kasteel van Piagnaro (lepiagne zijn leistenen dakbedekking), de kerk van Nostra Donna, een meesterwerk van de Toscaanse barok, en het Museum van standbeeld-steles, bewijs van oude Ligurisch-Apuaanse bevolking. Tegenwoordig staat Pontremoli bekend als het thuisland van boekverkopers en de Bancarella Award, maar ook als een plaats van de zeer speciale Lunigiana-gastronomie. Pelliccia is een gastvrije plek, gelegen ten noorden van het historische centrum, waar het zorgvuldige management van Veronica Tosi en haar familie een nauwkeurige keuken biedt met typische lokale producten, seizoenschampignonspecialiteiten en het malse lam van het Zerasca-ras afkomstig uit Lunigiana.",
+      "DETAIL_TWO": "Vergeet niet de testaroli met Pontrmola-pesto en vele andere gastronomische specialiteiten die het menu elke dag verrijken. De bediening in de eetkamer is uitstekend, professioneel en vertrouwd tegelijk. De wijnkaart is zeer gevarieerd en biedt labels uit heel Italië. Degustatiemenu, thema en aanbod van glutenvrije gerechten."
+    },
+    "LANGUAGE": {
+      "SELECT": "Selecteer je taal",
+      "CANCEL": "Annuleren",
+      "UPDATE": "Bijwerken",
+      "LANGUAGE": "Nederlands"
+    }
+  }

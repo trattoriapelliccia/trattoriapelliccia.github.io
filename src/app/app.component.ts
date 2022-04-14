@@ -8,14 +8,14 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent{
   languageList = [
-    { code: 'it', label: 'Italiano' },
+    { code: 'de', label: 'Deutsch' },
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Espanol' },
-    { code: 'de', label: 'Deutsch' },
     { code: 'fr', label: 'Français' },
-    { code: 'zh', label: '中文' },
+    { code: 'it', label: 'Italiano' },
     { code: 'ja', label: '日本語' },
-    { code: 'ar', label: 'عربى' }
+    { code: 'nl', label: 'Nederlands' },
+    { code: 'zh', label: '中文' }
   ];
 
   constructor(@Inject(LOCALE_ID) protected localeId: string, private translate: TranslateService) {

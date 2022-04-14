@@ -49,7 +49,7 @@
           </a>
         </div> 
       </ng-container>
-      <mat-icon (click)="openDialog()" (keydown.enter)="openDialog()" class="icon" tabindex="0">translate</mat-icon>
+      <span (click)="openDialog()" (keydown.enter)="openDialog()" tabindex="0" [ngClass]="language ? 'language-selector flag-icon flag-icon-' + languageCode : ''"></span>
     </mat-toolbar-row>
   </mat-toolbar>
 
