@@ -8,7 +8,7 @@
       <a [ngClass]="mobileQuery.matches ? 'show' : 'hide'" mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
         <mat-icon>menu</mat-icon>
       </a>
-      <div *ngIf="!mobileQuery.matches" class="header-name">
+      <div *ngIf="!mobileQuery.matches" class="header-name" routerLink=".">
         <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
       </div>
       <span class="spacer"></span> 
@@ -18,29 +18,32 @@
             class="header-navigation-link" 
             routerLink="."
             [ngClass]="activeTab == '/' ? 'active-tab' : 'non-active-tab'" 
-            (click)="navigate('/')">{{'MENU.HOME' | translate}}</a>
+            (click)="navigate('/')">{{'HEADER_MENU.HOME' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="menu"
             [ngClass]="activeTab == 'menu' ? 'active-tab' : 'non-active-tab'" 
-            (click)="navigate('menu')">{{'MENU.MENU' | translate}}</a>
+            (click)="navigate('menu')">{{'HEADER_MENU.MENU' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="about"
             [ngClass]="activeTab == 'about' ? 'active-tab' : 'non-active-tab'"
-            (click)="navigate('about')">{{'MENU.ABOUT' | translate}}</a>
+            (click)="navigate('about')">{{'HEADER_MENU.ABOUT' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="contact"
             [ngClass]="activeTab == 'contact' ? 'active-tab' : 'non-active-tab'" 
-            (click)="navigate('contact')">{{'MENU.CONTACT' | translate}}</a>
+            (click)="navigate('contact')">{{'HEADER_MENU.CONTACT' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="gallery"
             [ngClass]="activeTab == 'gallery' ? 'active-tab' : 'non-active-tab'" 
-            (click)="navigate('gallery')">{{'MENU.GALLERY' | translate}}</a>
+            (click)="navigate('gallery')">{{'HEADER_MENU.GALLERY' | translate}}</a>
         </div>  
         <div class="header-icons">
+          <a class="icon-link-header" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
+            <i class="side-logos-mobile fas fa-globe"></i>
+          </a>
           <a class="icon-link-header" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
             <i class="side-logos-mobile fab fa-instagram"></i>
           </a>
@@ -76,34 +79,34 @@
               mat-list-item 
               routerLink="."
               (click)="navigate('/')">
-              {{'MENU.HOME' | translate}}</a>
+              {{'HEADER_MENU.HOME' | translate}}</a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
               routerLink="menu"
               (click)="navigate('menu')">
-              {{'MENU.MENU' | translate}}
+              {{'HEADER_MENU.MENU' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
               routerLink="about"
               (click)="navigate('about')">
-              {{'MENU.ABOUT' | translate}}
+              {{'HEADER_MENU.ABOUT' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
               routerLink="contact"
               (click)="navigate('contact')">
-              {{'MENU.CONTACT' | translate}}
+              {{'HEADER_MENU.CONTACT' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
               routerLink="gallery"
               (click)="navigate('gallery')">
-              {{'MENU.GALLERY' | translate}}
+              {{'HEADER_MENU.GALLERY' | translate}}
             </a>
           </mat-nav-list>
         </div>

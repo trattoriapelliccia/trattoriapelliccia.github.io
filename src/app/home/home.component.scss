@@ -57,8 +57,7 @@
   margin-top: 0;
   font-size: 2em;
   text-align: center;
-  color: #ffffff;
-  font-weight: bold;
+  color: slategrey;
   font-family: 'Montserrat';
 }
 
@@ -90,15 +89,6 @@
     font-family: 'Pinyon Script', cursive;
     margin-bottom: 0;
     padding-left: 2rem;
-  }
-
-  .detail-message {
-    margin-top: 0;
-    font-size: 2em;
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: 'Montserrat';
   }
 }
 
@@ -181,6 +171,20 @@
     color: #ffffff;
     font-weight: bold;
     font-family: 'Montserrat';
+  }
+}
+
+// height is less than 900 px and width is less than 790px (tablet)
+@media (max-height: 900px) and (max-width: 790px) {
+  .detail-message {
+    color: #ffffff;
+  }
+}
+
+// height is less than 850px (desktop)
+@media (max-height: 850px) {
+  .detail-message {
+    color: #ffffff;
   }
 }
 
