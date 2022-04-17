@@ -10,8 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class AboutComponent implements OnInit, OnDestroy {
   mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
-  public ravioliImageDesktopUrl: string = "../../assets/images/ravioli.png";
-  public ravioliImageMobileUrl: string = "../../assets/images/ravioliMobile.png"
+  public ravioliImageDesktopUrl: string = "../../assets/images/trattoriaFront.jpg";
+  public ravioliImageMobileUrl: string = "../../assets/images/trattoriaFrontMobile.jpeg"
 
   constructor(
     private translate: TranslateService, 
