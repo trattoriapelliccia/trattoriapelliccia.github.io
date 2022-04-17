@@ -8,7 +8,7 @@
       <a [ngClass]="mobileQuery.matches ? 'show' : 'hide'" mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
         <mat-icon>menu</mat-icon>
       </a>
-      <div *ngIf="!mobileQuery.matches" class="header-name" routerLink=".">
+      <div *ngIf="!mobileQuery.matches" class="header-name">
         <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
       </div>
       <span class="spacer"></span> 
