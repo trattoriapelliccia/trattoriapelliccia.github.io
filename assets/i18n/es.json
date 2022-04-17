@@ -2,28 +2,35 @@
   "HOME": {
     "MISSION": "Especializado en la cocina clásica de pontremoli."
   },
-  "MENU": {
+  "HEADER_MENU": {
     "HOME": "Casa",
     "MENU": "Menú",
     "ABOUT": "Sobre nosotros",
     "CONTACT": "Contacto",
-    "GALLERY": "Galería",
-    "MAIN_COURSES": "Platos Principales",
-    "DESSERT": "Postre"
+    "GALLERY": "Galería"
+  },
+  "MENU": {
+    "MENU_TITLE": "Menú de Muestra",
+    "ANTIPASTI": "Aperitivos",
+    "PRIMI": "Primeros Cursos",
+    "SECONDI": "Segundos Cursos",
+    "DESSERTS_DESCRIPTION": "Selección de postres caseros",
+    "DESSERT": "Postre",
+    "BOOKING": "Bajo Petición y Reserva"
   },
   "CONTACT": {
     "CONTACT": "Contacto",
     "ADDRESS": "Dirección",
     "PHONEANDEMAIL": "Teléfono y Correo Electrónico",
-    "HOURS": "Horas de Operación"
+    "HOURS": "Horas de Operación",
+    "DAYS_CLOSED": "Día de cierre: Martes todo el día"
   },
   "ABOUT": {
     "ABOUT_US": "Quienes somos",
-    "INTRO_OPENER": "Situado",
-    "INTRO_ONE": " en Val di Magra, Pontremoli, durante cientos de años, se sentó a horcajadas sobre un importante enlace comercial que conectaba la costa mediterránea con el interior europeo. En consecuencia, la cocina de Pontremoli refleja diferentes influencias de la Toscana, Liguria y Emilia-Romaña.",
-    "INTRO_TWO": "En Antica Trattoria Pelliccia, lo invitamos a unirse a nosotros para celebrar ese variado patrimonio culinario con un menú que evoluciona según la temporada y presenta lo mejor de estas cocinas.",
-    "DETAIL_ONE": "Pontremoli, situada a lo largo de la Cisa, una importante vía de conexión entre el norte y el sur desde la época romana, es una ciudad rica en historia y monumentos, como el castillo de Piagnaro (lepiagne son losas de pizarra para techar), la iglesia de Nostra Donna, una obra maestra del barroco toscano, y el Museo de las estatuas-estelas, testimonio de las antiguas poblaciones ligures-apuanas. Hoy Pontremoli es conocida como la patria de los libreros y el Premio Bancarella, pero también como un lugar de gastronomía lunigiana muy especial. Pelliccia es un lugar acogedor, ubicado al norte del centro histórico, donde la esmerada gestión de Veronica Tosi y su familia ofrece una cuidada cocina con productos típicos locales, especialidades de hongos de temporada y el tierno cordero de raza Zerasca originario de Lunigiana.",
-    "DETAIL_TWO": "No olvides el testaroli con pesto de pontrámola y muchas otras especialidades gastronómicas que enriquecen la carta todos los días. El servicio de comedor es excelente, profesional y familiar a la vez. La lista de vinos es muy variada y ofrece etiquetas de toda Italia. Menú degustación, tematizado y oferta de platos sin gluten."
+    "INTRO_ONE": " está ubicado en un edificio de época en la antigua ruta de la Via Francigena. A pasos del hermoso centro histórico de Pontremoli con estacionamiento gratuito cerca de la entrada a Porta Parma. Ya sea que tome el corto paseo desde el centro medieval de Pontremoli o llegue a través de Porta Parma, lo que le espera es la cocina clásica de Pontremolese, preparada con un alto nivel y servida en un entorno confortable.",
+    "INTRO_TWO": "Situado en Val di Magra, Pontremoli, durante cientos de años, se sentó a horcajadas sobre un enlace comercial clave entre la costa y el interior de Italia. Como resultado, la cocina de Pontremoli refleja un conjunto diverso de influencias de la Toscana, Liguria y Emilia-Romaña. Dirigida con cariño por Veronica Tosi y Raffaello Cerutti, Trattoria Pelliccia ofrece una cocina con productos típicos locales cuidadosamente seleccionados, especialidades de champiñones de temporada, tierno cordero de raza Zerasca originario de Lunigiana y excelentes postres caseros. Amplia selección de vinos locales y nacionales.",
+    "INTRO_THREE": "Los cálidos y acogedores comedores brindan serenidad para aquellos que buscan una comida relajante, pero también un entorno agradable para momentos de convivencia con amigos y familiares. En Antica Trattoria Pelliccia, Veronica y Raffaello lo invitan a unirse a ellos para celebrar la diversa herencia culinaria de Pontremoli y Lunigiana con un menú que evoluciona según la temporada y presenta lo mejor de estas cocinas.",
+    "INTRO_FOUR": "¡Disfrute de su comida!"
   },
   "LANGUAGE": {
     "SELECT": "Elige tu idiomae",

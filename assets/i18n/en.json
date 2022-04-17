@@ -1,29 +1,36 @@
 {
   "HOME": {
-    "MISSION": "Specializing in the classical cuisine of Pontremoli."
+    "MISSION": "Specializing in the classic cuisine of Pontremoli."
   },
-  "MENU": {
+  "HEADER_MENU": {
     "HOME": "Home",
     "MENU": "Menu",
     "ABOUT": "About",
     "CONTACT": "Contact",
-    "GALLERY": "Gallery",
-    "MAIN_COURSES": "Main Courses",
-    "DESSERT": "Dessert"
+    "GALLERY": "Gallery"
   }, 
+  "MENU": {
+    "MENU_TITLE": "Sample Menu",
+    "ANTIPASTI": "Appetizers",
+    "PRIMI": "First Courses",
+    "SECONDI": "Second Courses",
+    "DESSERTS_DESCRIPTION": "Selection of homemade desserts",
+    "DESSERT": "Desserts",
+    "BOOKING": "On Request and Reservation"
+  },
   "CONTACT": {
     "CONTACT": "Contact",
     "ADDRESS": "Address",
     "PHONEANDEMAIL": "Phone and Email",
-    "HOURS": "Hours of Operation"
+    "HOURS": "Hours of Operation",
+    "DAYS_CLOSED": "Closing day: Tuesday all day"
   },
   "ABOUT": {
     "ABOUT_US": "About Us",
-    "INTRO_OPENER": "Situated",
-    "INTRO_ONE": " in the Val di Magra, Pontremoli, for hundreds of years, sat astride a key trading link connecting the Medditeranean coastland and the European inland. As a result, the cuisine of Pontremoli reflects diverse influences from Tuscany, Liguria and Emilia-Romagna. ",
-    "INTRO_TWO": "At Antica Trattoria Pelliccia, we invite you to join us in celebrating that diverse culinary heritage with a seasonally evolving menu featuring the best of these cuisines.",
-    "DETAIL_ONE": "Pontremoli, located along the Cisa, an important connection road between North and South since Roman times, is a city rich in history and monuments, such as the Piagnaro castle (lepiagne are slate slabs for roofing), the church of Nostra Donna, a masterpiece of the Tuscan Baroque, and the Museum of Statue-steles, evidence of ancient Ligurian-Apuan populations. Today Pontremoli is known as the homeland of booksellers and the Bancarella Award, but also as a place of very special Lunigiana gastronomy. Pelliccia is a welcoming place, located north of the historic center, where the careful management of Veronica Tosi and her family offers an accurate cuisine with typical local products, seasonal mushroom specialties and the tender lamb of the Zerasca breed originating from Lunigiana.",
-    "DETAIL_TWO": "Do not forget the testaroli with Pontrmola pesto and many other gastronomic specialties that enrich the menu every day. The dining room service is excellent, professional and familiar at the same time. The wine list is very varied, offering labels from all over Italy. Tasting menu, themed, and offer of gluten-free dishes."
+    "INTRO_ONE": " is located in a period building on the ancient route of the Via Francigena. Steps away from the beautiful historic center of Pontremoli with free parking near the entrance to Porta Parma.  Whether one takes the short walk from the medieval center of Pontremoli or arrives via Porta Parma, what awaits is classic Pontremolese cuisine, prepared to a high standard and served in comfortable surroundings.",
+    "INTRO_TWO": "Situated in the Val di Magra, Pontremoli, for hundreds of years, sat astride a key trading link between coastal and inland Italia.  As a result, the cuisine of Pontremoli reflects a diverse set of influences from Tuscany, Liguria, Emilia-Romagna.  Lovingly managed by Veronica Tosi and Raffaello Cerutti, Trattoria Pelliccia offers a cuisine with carefully selected typical local products, seasonal mushroom specialties, tender lamb from the Zerasca breed originating from Lunigiana, and excellent homemade desserts.  Wide choice of local and national wines. ",
+    "INTRO_THREE": "The warm and inviting dining rooms provide serenity for those seeking a relaxing meal but also a friendly setting for convivial times with friends and family.  At Antica Trattoria Pelliccia, Veronica and Raffaello invite you to join them in celebrating the diverse culinary heritage of Pontremoli and Lunigiana with a seasonally evolving menu featuring the best of these cuisines.",
+    "INTRO_FOUR": "Buon Appetito!"
   },
   "LANGUAGE": {
     "SELECT": "Select your language",
