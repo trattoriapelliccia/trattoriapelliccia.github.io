@@ -47,6 +47,11 @@ h1.app-name {
   padding-left: 1rem;
 }
 
+.header-name:hover {
+  cursor: pointer;
+}
+
+
 .header-name-trattoria {
   display: inline;
   font-size: 24px;

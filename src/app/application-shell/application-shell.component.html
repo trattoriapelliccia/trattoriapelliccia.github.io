@@ -8,7 +8,7 @@
       <a [ngClass]="mobileQuery.matches ? 'show' : 'hide'" mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
         <mat-icon>menu</mat-icon>
       </a>
-      <div *ngIf="!mobileQuery.matches" class="header-name">
+      <div *ngIf="!mobileQuery.matches" class="header-name" (click)="navigate('/')">
         <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
       </div>
       <span class="spacer"></span> 
@@ -16,19 +16,14 @@
         <div class="desktop-header-navigation-links">
           <a 
             class="header-navigation-link" 
-            routerLink="."
-            [ngClass]="activeTab == '/' ? 'active-tab' : 'non-active-tab'" 
-            (click)="navigate('/')">{{'HEADER_MENU.HOME' | translate}}</a>
+            routerLink="about"
+            [ngClass]="activeTab == 'about' ? 'active-tab' : 'non-active-tab'"
+            (click)="navigate('about')">{{'HEADER_MENU.ABOUT' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="menu"
             [ngClass]="activeTab == 'menu' ? 'active-tab' : 'non-active-tab'" 
             (click)="navigate('menu')">{{'HEADER_MENU.MENU' | translate}}</a>
-          <a 
-            class="header-navigation-link" 
-            routerLink="about"
-            [ngClass]="activeTab == 'about' ? 'active-tab' : 'non-active-tab'"
-            (click)="navigate('about')">{{'HEADER_MENU.ABOUT' | translate}}</a>
           <a 
             class="header-navigation-link" 
             routerLink="contact"
@@ -41,14 +36,14 @@
             (click)="navigate('gallery')">{{'HEADER_MENU.GALLERY' | translate}}</a>
         </div>  
         <div class="header-icons">
-          <a class="icon-link-header" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
-            <i class="side-logos-mobile fas fa-globe"></i>
-          </a>
           <a class="icon-link-header" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
             <i class="side-logos-mobile fab fa-instagram"></i>
           </a>
-          <a class="icon-link-header" href="https://www.tripadvisor.com/Restaurant_Review-g1175103-d2028036-Reviews-Antica_Trattoria_Pelliccia-Pontremoli_Province_of_Massa_Carrara_Tuscany.html" aria-label="trip advisor">
-            <i class="side-logos-mobile fab fa-tripadvisor"></i>
+          <a class="icon-link-header" href="https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R" aria-label="facebook">
+            <i class="side-logos-mobile fab fa-facebook"></i>
+          </a>
+          <a class="icon-link-header" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
+            <i class="side-logos-mobile fas fa-globe"></i>
           </a>
         </div> 
       </ng-container>
@@ -83,16 +78,16 @@
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              routerLink="menu"
-              (click)="navigate('menu')">
-              {{'HEADER_MENU.MENU' | translate}}
+              routerLink="about"
+              (click)="navigate('about')">
+              {{'HEADER_MENU.ABOUT' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              routerLink="about"
-              (click)="navigate('about')">
-              {{'HEADER_MENU.ABOUT' | translate}}
+              routerLink="menu"
+              (click)="navigate('menu')">
+              {{'HEADER_MENU.MENU' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
@@ -116,9 +111,6 @@
         >
           <a class="icon-link" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
             <i class="side-logos-mobile fab fa-instagram"></i>
-          </a>
-          <a class="icon-link" href="https://www.tripadvisor.com/Restaurant_Review-g1175103-d2028036-Reviews-Antica_Trattoria_Pelliccia-Pontremoli_Province_of_Massa_Carrara_Tuscany.html" aria-label="trip advisor">
-            <i class="side-logos-mobile fab fa-tripadvisor"></i>
           </a>
           <a class="icon-link" href="https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R" aria-label="facebook">
             <i class="side-logos-mobile fab fa-facebook"></i>
