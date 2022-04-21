@@ -21,9 +21,9 @@
   "CONTACT": {
     "CONTACT": "Contact",
     "ADDRESS": "Address",
-    "PHONEANDEMAIL": "Phone and Email",
+    "PHONEANDEMAIL": "Information and Reservations",
     "HOURS": "Hours of Operation",
-    "DAYS_CLOSED": "Closing day: Tuesday all day"
+    "DAYS_CLOSED": "Closed Tuesdays"
   },
   "ABOUT": {
     "ABOUT_US": "About Us",

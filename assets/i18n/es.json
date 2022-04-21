@@ -3,7 +3,7 @@
     "MISSION": "Especializado en la cocina clásica de pontremoli."
   },
   "HEADER_MENU": {
-    "HOME": "Casa",
+    "HOME": "Home",
     "MENU": "Menú",
     "ABOUT": "Sobre nosotros",
     "CONTACT": "Contacto",
@@ -21,7 +21,7 @@
   "CONTACT": {
     "CONTACT": "Contacto",
     "ADDRESS": "Dirección",
-    "PHONEANDEMAIL": "Teléfono y Correo Electrónico",
+    "PHONEANDEMAIL": "Información y Reservas",
     "HOURS": "Horas de Operación",
     "DAYS_CLOSED": "Día de cierre: Martes todo el día"
   },

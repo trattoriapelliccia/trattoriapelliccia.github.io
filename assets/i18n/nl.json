@@ -3,7 +3,7 @@
       "MISSION": "Gespecialiseerd in de klassieke keuken van Pontremoli."
     },
     "HEADER_MENU": {
-      "HOME": "Thuis",
+      "HOME": "Home",
       "MENU": "Menu",
       "ABOUT": "Wat betreft",
       "CONTACT": "Contact",
@@ -21,7 +21,7 @@
     "CONTACT": {
       "CONTACT": "Contact",
       "ADDRESS": "Adres",
-      "PHONEANDEMAIL": "Telefoon en e-mail",
+      "PHONEANDEMAIL": "Informatie en Reserveringen",
       "HOURS": "Openingstijden",
       "DAYS_CLOSED": "Sluitingsdag: dinsdag de hele dag"
     },

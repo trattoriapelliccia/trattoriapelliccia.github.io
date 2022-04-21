@@ -3,7 +3,7 @@
       "MISSION": "Specializzato nella cucina classica pontremolese."
     },
     "HEADER_MENU": {
-      "HOME": "Casa",
+      "HOME": "Home",
       "MENU": "Menù",
       "ABOUT": "Chi siamo",
       "CONTACT": "Contatto",
@@ -20,8 +20,8 @@
     },
     "CONTACT": {
       "CONTACT": "Contatto",
-      "ADDRESS": "Posizione",
-      "PHONEANDEMAIL": "Telefono ed E-mail",
+      "ADDRESS": "Indirizzo",
+      "PHONEANDEMAIL": "Informazioni e Prenotazioni",
       "HOURS": "Orario di Apertura",
       "DAYS_CLOSED": "Giorno di Chiusura: Martedì tutto il giorno"
     },

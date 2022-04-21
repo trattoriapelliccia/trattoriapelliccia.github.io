@@ -3,7 +3,7 @@
     "MISSION": "Spécialisé dans la cuisine classique de Pontremoli."
   },
   "HEADER_MENU": {
-    "HOME": "Domicile",
+    "HOME": "Home",
     "MENU": "Menu",
     "ABOUT": "À propos de nous",
     "CONTACT": "Contacter",
@@ -21,7 +21,7 @@
   "CONTACT": {
     "CONTACT": "Contacter",
     "ADDRESS": "Emplacement",
-    "PHONEANDEMAIL": "Téléphone et E-mail",
+    "PHONEANDEMAIL": "Informations et réservations",
     "HOURS": "Heures d'Ouverture",
     "DAYS_CLOSED": "Jour de fermeture : Mardi toute la journée"
   },
