@@ -39,7 +39,7 @@
           <a class="icon-link-header" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
             <i class="side-logos-mobile fab fa-instagram"></i>
           </a>
-          <a class="icon-link-header" href="https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R" aria-label="facebook">
+          <a class="icon-link-header" [href]="mobileQuery.matches ? 'https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R' : 'https://www.facebook.com/pages/Antica-Trattoria-Pelliccia/119889251427852'" aria-label="facebook">
             <i class="side-logos-mobile fab fa-facebook"></i>
           </a>
           <a class="icon-link-header" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
@@ -112,7 +112,7 @@
           <a class="icon-link" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
             <i class="side-logos-mobile fab fa-instagram"></i>
           </a>
-          <a class="icon-link" href="https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R" aria-label="facebook">
+          <a class="icon-link" [href]="mobileQuery.matches ? 'https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R' : 'https://www.facebook.com/pages/Antica-Trattoria-Pelliccia/119889251427852'" aria-label="facebook">
             <i class="side-logos-mobile fab fa-facebook"></i>
           </a>
           <a class="icon-link" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">

@@ -21,6 +21,7 @@
   "CONTACT": {
     "CONTACT": "コンタクト",
     "ADDRESS": "位置",
+    "ASK": "求める",
     "PHONEANDEMAIL": "情報と予約",
     "HOURS": "営業時間",
     "DAYS_CLOSED": "休業日：火曜日終日"
