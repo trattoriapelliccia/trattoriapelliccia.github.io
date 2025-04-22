@@ -5,7 +5,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 16px;}
 $flag-icon-css-path: '~flag-icon-css/flags';
 $include: gb, fr, jp, es, cn, it, de, nl;
-@import '~flag-icon-css/sass/flag-icons';
+//@import '~flag-icon-css/sass/flag-icons';
 
 .mat-list-item-content {
   font-size: 1.15em !important;
