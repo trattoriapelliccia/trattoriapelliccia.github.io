@@ -1,12 +1,13 @@
-import { Component, LOCALE_ID, Inject } from '@angular/core';
+import { Component, LOCALE_ID, Inject, AfterViewInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  standalone: false
 })
-export class AppComponent{
+export class AppComponent implements AfterViewInit {
   languageList = [
     { code: 'de', label: 'Deutsch' },
     { code: 'en', label: 'English' },
@@ -25,4 +26,9 @@ export class AppComponent{
     const lang = !!sessionLang ? sessionLang : browserLang.match(/en|it|de|fr|es|zh|ja|ar/) ? browserLang : 'en';
     translate.use(lang);
   }
+
+  ngAfterViewInit(): void {
+    document.getElementById("pre-angular-spinner-container").style.display="none";
+    document.getElementById("angularRoot").style.display="block";
+}
 }
