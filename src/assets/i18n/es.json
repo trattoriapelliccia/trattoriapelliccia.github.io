@@ -1,0 +1,42 @@
+{
+  "HOME": {
+    "MISSION": "Especializado en la cocina clásica de pontremoli."
+  },
+  "HEADER_MENU": {
+    "HOME": "Home",
+    "MENU": "Menú",
+    "ABOUT": "Sobre nosotros",
+    "CONTACT": "Contacto",
+    "GALLERY": "Galería"
+  },
+  "MENU": {
+    "MENU_TITLE": "Menú de Muestra",
+    "ANTIPASTI": "Aperitivos",
+    "PRIMI": "Primeros Cursos",
+    "SECONDI": "Segundos Cursos",
+    "DESSERTS_DESCRIPTION": "Selección de postres caseros",
+    "DESSERT": "Postre",
+    "BOOKING": "Bajo Petición y Reserva"
+  },
+  "CONTACT": {
+    "CONTACT": "Contacto",
+    "ADDRESS": "Dirección",
+    "ASK": "Pregunta por",
+    "PHONEANDEMAIL": "Información y Reservas",
+    "HOURS": "Horas de Operación",
+    "DAYS_CLOSED": "Día de cierre: Martes todo el día"
+  },
+  "ABOUT": {
+    "ABOUT_US": "Quienes somos",
+    "INTRO_ONE": "está ubicado en un edificio de época en la antigua ruta de la Via Francigena. A pasos del hermoso centro histórico de Pontremoli con estacionamiento gratuito cerca de la entrada a Porta Parma. Ya sea que tome el corto paseo desde el centro medieval de Pontremoli o llegue a través de Porta Parma, lo que le espera es la cocina clásica de Pontremolese, preparada con un alto nivel y servida en un entorno confortable.",
+    "INTRO_TWO": "Situado en Val di Magra, Pontremoli, durante cientos de años, se sentó a horcajadas sobre un enlace comercial clave entre la costa y el interior de Italia. Como resultado, la cocina de Pontremoli refleja un conjunto diverso de influencias de la Toscana, Liguria y Emilia-Romaña. Dirigida con cariño por Veronica Tosi y Raffaello Cerutti, Trattoria Pelliccia ofrece una cocina con productos típicos locales cuidadosamente seleccionados, especialidades de champiñones de temporada, tierno cordero de raza Zerasca originario de Lunigiana y excelentes postres caseros. Amplia selección de vinos locales y nacionales.",
+    "INTRO_THREE": "Los cálidos y acogedores comedores brindan serenidad para aquellos que buscan una comida relajante, pero también un entorno agradable para momentos de convivencia con amigos y familiares. En Antica Trattoria Pelliccia, Veronica y Raffaello lo invitan a unirse a ellos para celebrar la diversa herencia culinaria de Pontremoli y Lunigiana con un menú que evoluciona según la temporada y presenta lo mejor de estas cocinas.",
+    "INTRO_FOUR": "¡Disfrute de su comida!"
+  },
+  "LANGUAGE": {
+    "SELECT": "Elige tu idiomae",
+    "CANCEL": "Cancelar",
+    "UPDATE": "Actualizar",
+    "LANGUAGE": "Español"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "HOME": {
+    "MISSION": "Specializing in the classic cuisine of Pontremoli."
+  },
+  "HEADER_MENU": {
+    "HOME": "Home",
+    "MENU": "Menu",
+    "ABOUT": "About",
+    "CONTACT": "Contact",
+    "GALLERY": "Gallery"
+  }, 
+  "MENU": {
+    "MENU_TITLE": "Sample Menu",
+    "ANTIPASTI": "Appetizers",
+    "PRIMI": "First Courses",
+    "SECONDI": "Second Courses",
+    "DESSERTS_DESCRIPTION": "Selection of homemade desserts",
+    "DESSERT": "Desserts",
+    "BOOKING": "On Request and Reservation"
+  },
+  "CONTACT": {
+    "CONTACT": "Contact",
+    "ADDRESS": "Address",
+    "ASK": "Ask for",
+    "PHONEANDEMAIL": "Information and Reservations",
+    "HOURS": "Hours of Operation",
+    "DAYS_CLOSED": "Closed Tuesdays"
+  },
+  "ABOUT": {
+    "ABOUT_US": "About Us",
+    "INTRO_ONE": "is located in a period building on the ancient route of the Via Francigena. Steps away from the beautiful historic center of Pontremoli with free parking near the entrance to Porta Parma.  Whether one takes the short walk from the medieval center of Pontremoli or arrives via Porta Parma, what awaits is classic Pontremolese cuisine, prepared to a high standard and served in comfortable surroundings.",
+    "INTRO_TWO": "Situated in the Val di Magra, Pontremoli, for hundreds of years, sat astride a key trading link between coastal and inland Italia.  As a result, the cuisine of Pontremoli reflects a diverse set of influences from Tuscany, Liguria, Emilia-Romagna.  Lovingly managed by Veronica Tosi and Raffaello Cerutti, Trattoria Pelliccia offers a cuisine with carefully selected typical local products, seasonal mushroom specialties, tender lamb from the Zerasca breed originating from Lunigiana, and excellent homemade desserts.  Wide choice of local and national wines.",
+    "INTRO_THREE": "The warm and inviting dining rooms provide serenity for those seeking a relaxing meal but also a friendly setting for convivial times with friends and family.  At Antica Trattoria Pelliccia, Veronica and Raffaello invite you to join them in celebrating the diverse culinary heritage of Pontremoli and Lunigiana with a seasonally evolving menu featuring the best of these cuisines.",
+    "INTRO_FOUR": "Buon Appetito!"
+  },
+  "LANGUAGE": {
+    "SELECT": "Select your language",
+    "CANCEL": "Cancel",
+    "UPDATE": "Update",
+    "LANGUAGE": "English"
+  }
+}

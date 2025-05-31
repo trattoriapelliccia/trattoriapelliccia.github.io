@@ -1,0 +1,42 @@
+{
+    "HOME": {
+      "MISSION": "Gespecialiseerd in de klassieke keuken van Pontremoli."
+    },
+    "HEADER_MENU": {
+      "HOME": "Home",
+      "MENU": "Menu",
+      "ABOUT": "Wat betreft",
+      "CONTACT": "Contact",
+      "GALLERY": "Galerij"
+    }, 
+    "MENU": {
+      "MENU_TITLE": "Voorbeeldmenu",
+      "ANTIPASTI": "Voorgerechten",
+      "PRIMI": "Eerste Cursussen",
+      "SECONDI": "Tweede Gangen",
+      "DESSERTS_DESCRIPTION": "Selectie van huisgemaakte desserts",
+      "DESSERT": "Toetje",
+      "BOOKING": "Op aanvraag en reservering"
+    },
+    "CONTACT": {
+      "CONTACT": "Contact",
+      "ADDRESS": "Adres",
+      "ASK": "Vraag om",
+      "PHONEANDEMAIL": "Informatie en Reserveringen",
+      "HOURS": "Openingstijden",
+      "DAYS_CLOSED": "Sluitingsdag: dinsdag de hele dag"
+    },
+    "ABOUT": {
+      "ABOUT_US": "Over ons",
+      "INTRO_ONE": "is gevestigd in een historisch gebouw aan de oude route van de Via Francigena. Op steenworp afstand van het prachtige historische centrum van Pontremoli met gratis parkeergelegenheid bij de ingang van Porta Parma. Of u nu een korte wandeling maakt vanuit het middeleeuwse centrum van Pontremoli of aankomt via Porta Parma, u wacht op de klassieke Pontremolese keuken, bereid volgens een hoge standaard en geserveerd in een comfortabele omgeving.",
+      "INTRO_TWO": "Pontremoli, gelegen in de Val di Magra, lag honderden jaren op een belangrijke handelsverbinding tussen de kust en het binnenland van Italië. Als gevolg hiervan weerspiegelt de keuken van Pontremoli een andere reeks invloeden uit Toscane, Ligurië, Emilia-Romagna. Trattoria Pelliccia wordt liefdevol beheerd door Veronica Tosi en Raffaello Cerutti en biedt een keuken met zorgvuldig geselecteerde typische lokale producten, paddenstoelenspecialiteiten, mals lamsvlees van het Zerasca-ras afkomstig uit Lunigiana en uitstekende zelfgemaakte desserts. Ruime keuze aan lokale en nationale wijnen.",
+      "INTRO_THREE": "De warme en uitnodigende eetzalen bieden rust voor diegenen die op zoek zijn naar een ontspannen maaltijd, maar ook een vriendelijke omgeving voor gezellige momenten met vrienden en familie. Bij Antica Trattoria Pelliccia nodigen Veronica en Raffaello u uit om samen met hen het gevarieerde culinaire erfgoed van Pontremoli en Lunigiana te vieren met een seizoensgebonden menu met de beste van deze keukens.",
+      "INTRO_FOUR": "Eet Smakelijk!!"
+    },
+    "LANGUAGE": {
+      "SELECT": "Selecteer je taal",
+      "CANCEL": "Annuleren",
+      "UPDATE": "Bijwerken",
+      "LANGUAGE": "Nederlands"
+    }
+  }

@@ -1,0 +1,129 @@
+<div
+  class="application-shell-container"
+  [class.is-mobile]="mobileQuery.matches"
+>
+  <!-- HEADER -->
+  <mat-toolbar color="primary" class="toolbar">
+    <mat-toolbar-row>
+      <a [hidden]="!mobileQuery.matches" mat-button (click)="snav.toggle()" (keydown.enter)="snav.toggle()">
+        <mat-icon class="hamburger-menu">menu</mat-icon>
+      </a>
+      <div *ngIf="!mobileQuery.matches" class="header-name">
+        <a class="header-navigation-link" style='text-decoration: none; color: white' href='#home'>
+          <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
+        </a>
+      </div>
+      <span class="spacer"></span> 
+      <ng-container *ngIf="!mobileQuery.matches">
+        <div class="desktop-header-navigation-links">
+          <a 
+            class="header-navigation-link" 
+            href="#about"
+            [ngClass]="activeTab == 'about' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.ABOUT' | translate}}</a>
+          <a 
+            class="header-navigation-link" 
+            href="#menu"
+            [ngClass]="activeTab == 'menu' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.MENU' | translate}}</a>
+          <a 
+            class="header-navigation-link" 
+            href="#contact"
+            [ngClass]="activeTab == 'contact' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.CONTACT' | translate}}</a>
+          <a 
+            class="header-navigation-link" 
+            href="#gallery"
+            [ngClass]="activeTab == 'gallery' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.GALLERY' | translate}}</a>
+        </div>  
+        <div class="header-icons">
+          <a class="icon-link-header" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
+            <i class="side-logos-mobile fab fa-instagram"></i>
+          </a>
+          <a class="icon-link-header" [href]="mobileQuery.matches ? 'https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R' : 'https://www.facebook.com/pages/Antica-Trattoria-Pelliccia/119889251427852'" aria-label="facebook">
+            <i class="side-logos-mobile fab fa-facebook"></i>
+          </a>
+          <a class="icon-link-header" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
+            <i class="side-logos-mobile fas fa-globe"></i>
+          </a>
+        </div> 
+      </ng-container>
+      <span (click)="openDialog()" (keydown.enter)="openDialog()" [ngClass]="language ? 'language-selector flag-icon flag-icon-' + languageCode : ''"></span>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <!-- SIDENAV -->
+  <mat-sidenav-container
+    class="sidenav-container"
+    [ngClass]="mobileQuery.matches ? 'sidenav-container-mobile' : ''"
+  >
+    <mat-sidenav
+      class="sidenav"
+      #snav
+      mode="over"
+      [fixedInViewport]="mobileQuery.matches"
+      [opened]="false"
+      (click)="snav.toggle()"
+    >
+      <div class="links-logos-container">
+        <div class="sidenav-left">
+          <div class="spacer-sidenav"></div>
+          <mat-nav-list>
+            <a 
+              class="sidenav-menu-item" 
+              mat-list-item 
+              href="#home">
+              {{'HEADER_MENU.HOME' | translate}}</a>
+            <a 
+              class="sidenav-menu-item" 
+              mat-list-item 
+              href="#about">
+              {{'HEADER_MENU.ABOUT' | translate}}
+            </a>
+            <a 
+              class="sidenav-menu-item" 
+              mat-list-item 
+              href="#menu">
+              {{'HEADER_MENU.MENU' | translate}}
+            </a>
+            <a 
+              class="sidenav-menu-item" 
+              mat-list-item 
+              href="#contact">
+              {{'HEADER_MENU.CONTACT' | translate}}
+            </a>
+            <a 
+              class="sidenav-menu-item" 
+              mat-list-item 
+              href="#gallery">
+              {{'HEADER_MENU.GALLERY' | translate}}
+            </a>
+          </mat-nav-list>
+        </div>
+        <div
+          class="sidenav-right"
+          [ngClass]="'sidenav-right-darkmode'"
+        >
+          <a class="icon-link" href="https://www.instagram.com/antica_trattoria_pelliccia/" aria-label="instagram">
+            <i class="side-logos-mobile fab fa-instagram"></i>
+          </a>
+          <a class="icon-link" [href]="mobileQuery.matches ? 'https://m.facebook.com/profile.php?id=119889251427852&__tn__=C-R' : 'https://www.facebook.com/pages/Antica-Trattoria-Pelliccia/119889251427852'" aria-label="facebook">
+            <i class="side-logos-mobile fab fa-facebook"></i>
+          </a>
+          <a class="icon-link" href="https://goo.gl/maps/FW1oaU2ro58pJ13w7" aria-label="google maps">
+            <i class="side-logos-mobile fas fa-globe"></i>
+          </a>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <div
+        class="footer"
+        [ngClass]="'footer-darkmode'"
+      >
+        <p class="footer-text">&#169; 2022</p>
+      </div>
+    </mat-sidenav>
+
+    <!-- CONTENT OUTLET -->
+    <mat-sidenav-content class="content">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

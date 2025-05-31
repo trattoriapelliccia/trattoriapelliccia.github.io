@@ -1,0 +1,271 @@
+:host {
+  height: 100%;
+  width: 100%;
+}
+
+.application-shell-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  top: 0;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer-lightmode {
+  background-color: #abb7b7;
+}
+
+.footer-darkmode {
+  background-color: grey;
+}
+
+.footer-text {
+  font-size: 13px;
+}
+
+h1.app-name {
+  margin-left: 8px;
+}
+
+.header {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+.header-name {
+  padding-left: 1rem;
+}
+
+.header-name:hover {
+  cursor: pointer;
+}
+
+
+.header-name-trattoria {
+  display: inline;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-name-pelliccia {
+  padding-left: .75rem;
+  font-size: 31px;
+  display: inline;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-top: .35rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.icon {
+  padding: 0 0 0 1rem;
+  cursor: pointer
+}
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon-link-header {
+  transform: scale(.7);
+  padding-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.desktop-header-navigation-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-navigation-link {
+  cursor: pointer;
+  margin-left: 1rem;
+  font-weight: lighter;
+}
+
+.non-active-tab {
+  color: white;
+  text-decoration: none;
+}
+
+.active-tab {
+  color: white;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.is-mobile .toolbar {
+  position: fixed;
+  /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+  z-index: 2;
+}
+
+.is-mobile .sidenav-container {
+  /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+     `<body>` to be our scrolling element for mobile layouts. */
+  flex: 1 0 auto;
+}
+
+.light-mode-header {
+  background-image: linear-gradient(to top right, #f3f1ef, #67809f);
+}
+
+.linked-in-link {
+  text-decoration: none;
+  color: #f3f1ef;
+  display: flex;
+}
+
+.dark-mode-header {
+  background-image: linear-gradient(to top right, #455a64, black);
+}
+
+.links-logos-container {
+  height: calc(95vh - 10px);
+  min-width: 250px;
+  overflow: hidden;
+}
+
+.profile-container {
+  padding: 5px;
+  display: flex;
+}
+
+.profile-picture {
+  height: 100px;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.side-logos-mobile {
+  font-size: 2rem;
+}
+
+.sidenav-container {
+  /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+  flex: 1;
+}
+
+.sidenav-container-mobile {
+  margin-top: 56px;
+}
+
+.sidenav-links {
+  margin: 10px;
+}
+
+.sidenav-left {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.sidenav-right {
+  float: left;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sidenav-right-lightmode {
+  background-color: #e8ecf1;
+}
+
+.sidenav-right-darkmode {
+  background-color: #ef5777;
+}
+
+.sidenav-menu-item {
+  font-weight: lighter;
+}
+
+.signature {
+  font-family: 'Noto Sans', cursive;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signature-mobile {
+  font-size: 1.5rem;
+}
+
+.signature-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.spacer-sidenav {
+  padding: 20px;
+  margin: 20px;
+}
+
+.language-selector {
+  top: 2px;
+  left: 4px;
+  padding-left: 1rem;
+}
+
+.language-selector:hover {
+  cursor: pointer;
+}
+
+.toolbar {
+  position: sticky; /* Makes the toolbar sticky */
+  top: 0; /* Sticks it to the top of the viewport */
+  z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensures the row spans the full width */
+  margin: 0; /* Removes any default margins */
+  padding: 0 1rem; /* Adds horizontal padding for spacing */
+}
