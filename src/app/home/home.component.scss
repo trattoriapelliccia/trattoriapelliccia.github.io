@@ -39,6 +39,7 @@
   color: #ef5777;
   display: inline;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-display: optional;
   margin-bottom: 0;
 }
 
@@ -48,6 +49,7 @@
   display: inline;
   font-weight: normal;
   font-family: 'Pinyon Script', cursive;
+  font-display: optional;
   margin-bottom: 0;
   padding-left: 2rem;
 }
@@ -58,6 +60,8 @@
   text-align: center;
   color: slategrey;
   font-family: 'Montserrat';
+  font-display: optional;
+  width: 100%;
 }
 
 // tablet
