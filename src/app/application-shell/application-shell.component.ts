@@ -41,6 +41,10 @@ export class ApplicationShellComponent implements OnDestroy {
     this.languageCode = this.processLanguageCode(this.language);
   }
 
+  scrollTo(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
+
   processLanguageCode(language : string) {
     switch (language) {
       case "en":

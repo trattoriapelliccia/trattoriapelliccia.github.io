@@ -9,7 +9,7 @@
         <mat-icon class="hamburger-menu">menu</mat-icon>
       </a>
       <div *ngIf="!mobileQuery.matches" class="header-name">
-        <a class="header-navigation-link" style='text-decoration: none; color: white' href='#home'>
+        <a class="header-navigation-link" style='text-decoration: none; color: white' (click)="scrollTo('home')">
           <p class="header-name-trattoria">TRATTORIA</p><p class="header-name-pelliccia">Pelliccia</p>
         </a>
       </div>
@@ -18,19 +18,19 @@
         <div class="desktop-header-navigation-links">
           <a 
             class="header-navigation-link" 
-            href="#about"
+            (click)="scrollTo('about')"
             [ngClass]="activeTab == 'about' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.ABOUT' | translate}}</a>
           <a 
             class="header-navigation-link" 
-            href="#menu"
+            (click)="scrollTo('menu')"
             [ngClass]="activeTab == 'menu' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.MENU' | translate}}</a>
           <a 
             class="header-navigation-link" 
-            href="#contact"
+            (click)="scrollTo('contact')"
             [ngClass]="activeTab == 'contact' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.CONTACT' | translate}}</a>
           <a 
             class="header-navigation-link" 
-            href="#gallery"
+            (click)="scrollTo('gallery')"
             [ngClass]="activeTab == 'gallery' ? 'active-tab' : 'non-active-tab'">{{'HEADER_MENU.GALLERY' | translate}}</a>
         </div>  
         <div class="header-icons">
@@ -69,30 +69,30 @@
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              href="#home">
+              (click)="scrollTo('home')">
               {{'HEADER_MENU.HOME' | translate}}</a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              href="#about">
+              (click)="scrollTo('about')">
               {{'HEADER_MENU.ABOUT' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              href="#menu">
+              (click)="scrollTo('menu')">
               {{'HEADER_MENU.MENU' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              href="#contact">
+              (click)="scrollTo('contact')">
               {{'HEADER_MENU.CONTACT' | translate}}
             </a>
             <a 
               class="sidenav-menu-item" 
               mat-list-item 
-              href="#gallery">
+              (click)="scrollTo('gallery')">
               {{'HEADER_MENU.GALLERY' | translate}}
             </a>
           </mat-nav-list>
