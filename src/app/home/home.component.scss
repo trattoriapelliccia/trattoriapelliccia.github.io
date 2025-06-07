@@ -1,9 +1,9 @@
 .home-background {
   overflow-y: hidden;
   overflow-x: hidden;
-  height: calc(100svh - 64px);
+  height: calc(100lvh - 64px);
   background-image: url("../../assets/images/pontremoliFull.jpeg");
-  background-size: 100vw 100svh;
+  background-size: 100vw 100lvh;
 }
 
 .trattoria {
@@ -65,11 +65,11 @@
 // tablet
 @media screen and (max-width: 910px) {
   .home-background {
-    height: calc(100svh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: url("../../assets/images/pontremoliFullTablet.jpeg");
-    background-size: 100vw 100svh;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
@@ -94,12 +94,12 @@
 // phone
 @media screen and (max-width: 581px) {
   .home-background {
-    height: calc(100svh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
     flex-basis: 100%;
     background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
-    background-size: 100vw 100svh;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
@@ -134,11 +134,11 @@
 // v small phone
 @media screen and (max-width: 360px) {
   .home-background {
-    height: calc(100svh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
     background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
-    background-size: 100vw 100svh;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
