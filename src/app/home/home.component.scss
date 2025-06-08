@@ -1,9 +1,8 @@
 .home-background {
   overflow-y: hidden;
   overflow-x: hidden;
-  height: calc(100lvh - 64px);
   background-image: url("../../assets/images/pontremoliFull.jpeg");
-  background-size: 100vw 100lvh;
+  background-size: cover;
 }
 
 .trattoria {
