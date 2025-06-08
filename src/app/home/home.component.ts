@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     document.getElementById("home").style.height = "" + (Math.max(document.documentElement.clientHeight, window.innerHeight) - 56) + "px";
+    document.getElementById("home").style.backgroundSize = "100vw " + (Math.max(document.documentElement.clientHeight, window.innerHeight) - 56) + "px";
   }
 
   ngAfterViewInit(): void {
