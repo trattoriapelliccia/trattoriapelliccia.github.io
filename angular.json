@@ -97,7 +97,13 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "optimization": true,
+             "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                }
+              },
               "outputHashing": "all",
               "sourceMap": false,
               "namedChunks": false,
@@ -124,39 +130,39 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "portfolio:build"
+            "buildTarget": "portfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "portfolio:build:production"
+              "buildTarget": "portfolio:build:production"
             },
             "es": {
-              "browserTarget": "i18nDemo:build:es"
+              "buildTarget": "i18nDemo:build:es"
             },
             "fr": {
-              "browserTarget": "i18nDemo:build:fr"
+              "buildTarget": "i18nDemo:build:fr"
             },
             "hi": {
-              "browserTarget": "i18nDemo:build:hi"
+              "buildTarget": "i18nDemo:build:hi"
             },
             "en": {
-              "browserTarget": "i18nDemo:build:en"
+              "buildTarget": "i18nDemo:build:en"
             },
             "ch": {
-              "browserTarget": "i18nDemo:build:ch"
+              "buildTarget": "i18nDemo:build:ch"
             },
             "jp": {
-              "browserTarget": "i18nDemo:build:jp"
+              "buildTarget": "i18nDemo:build:jp"
             },
             "ar": {
-              "browserTarget": "i18nDemo:build:ar"
+              "buildTarget": "i18nDemo:build:ar"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolio:build"
+            "buildTarget": "portfolio:build"
           }
         },
         "test": {
@@ -224,7 +230,6 @@
       }
     }
   },
-  "defaultProject": "portfolio",
   "cli": {
     "analytics": "e7eb555f-d630-40ce-ae7b-2710433e154f"
   }

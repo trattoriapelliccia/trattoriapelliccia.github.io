@@ -8,15 +8,14 @@ import { MenuComponent } from './menu/menu.component';
 
 // routes for about and projects
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'menu', component: MenuComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'gallery', component: GalleryComponent },
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true, relativeLinkResolution: 'legacy' })],
+  imports: [RouterModule.forRoot(routes, { 
+    useHash: false,
+    anchorScrolling: 'enabled' })
+],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

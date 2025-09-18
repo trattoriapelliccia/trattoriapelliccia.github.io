@@ -1,3 +1,8 @@
+:host {
+  height: 100%;
+  width: 100%;
+}
+
 .application-shell-container {
   display: flex;
   flex-direction: column;
@@ -12,6 +17,7 @@
   display: flex;
   text-align: center;
   flex-direction: column;
+  top: 0;
 }
 
 .footer {
@@ -247,4 +253,19 @@ h1.app-name {
 
 .language-selector:hover {
   cursor: pointer;
+}
+
+.toolbar {
+  position: sticky; /* Makes the toolbar sticky */
+  top: 0; /* Sticks it to the top of the viewport */
+  z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensures the row spans the full width */
+  margin: 0; /* Removes any default margins */
+  padding: 0 1rem; /* Adds horizontal padding for spacing */
 }

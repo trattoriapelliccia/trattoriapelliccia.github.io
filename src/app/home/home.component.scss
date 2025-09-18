@@ -1,11 +1,7 @@
 .home-background {
-  max-height: calc(100vh - 56px);
   overflow-y: hidden;
   overflow-x: hidden;
-  flex-basis: 100%;
-  height: 100vh;
   background-image: url("../../assets/images/pontremoliFull.jpeg");
-  background-size: cover;
 }
 
 .trattoria {
@@ -25,7 +21,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 3rem;
 }
 
 .welcome-message-container {
@@ -40,6 +35,7 @@
   color: #ef5777;
   display: inline;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-display: optional;
   margin-bottom: 0;
 }
 
@@ -49,6 +45,7 @@
   display: inline;
   font-weight: normal;
   font-family: 'Pinyon Script', cursive;
+  font-display: optional;
   margin-bottom: 0;
   padding-left: 2rem;
 }
@@ -59,18 +56,18 @@
   text-align: center;
   color: slategrey;
   font-family: 'Montserrat';
+  font-display: optional;
+  width: 100%;
 }
 
 // tablet
 @media screen and (max-width: 910px) {
   .home-background {
-    max-height: calc(100vh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
-    flex-basis: 100%;
-    height: 100vh;
     background-image: url("../../assets/images/pontremoliFullTablet.jpeg");
-    background-size: cover;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
@@ -95,13 +92,12 @@
 // phone
 @media screen and (max-width: 581px) {
   .home-background {
-    max-height: calc(100vh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
     flex-basis: 100%;
-    height: 100vh;
     background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
-    background-size: cover;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
@@ -136,13 +132,11 @@
 // v small phone
 @media screen and (max-width: 360px) {
   .home-background {
-    max-height: calc(100vh - 56px);
+    height: calc(100lvh - 56px);
     overflow-y: hidden;
     overflow-x: hidden;
-    flex-basis: 100%;
-    height: 100vh;
     background-image: url("../../assets/images/pontremoliFullMobile.jpeg");
-    background-size: cover;
+    background-size: 100vw 100lvh;
   }
 
   .welcome-message-trattoria {
@@ -181,12 +175,343 @@
   }
 }
 
-// height is less than 850px (desktop)
-@media (max-height: 850px) {
+// height is less than 850px
+@media (max-height: 750px) {
   .detail-message {
     color: #ffffff;
   }
 }
 
+/** ABOUT US SECTION **/
+
+.component-background-about {
+  overflow-x: hidden;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top right, #c8d6e5,  #fbfbf8);
+  -webkit-overflow-scrolling: touch;
+}
+
+.intro-text-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.about-us {
+  color: #000;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: 'Georgia';
+  text-align: left;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.short-intro {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Sans Serif';
+  text-align: left;
+}
+
+.short-intro-opener {
+  font-size: 40px;
+}
+
+.ravioli-container {
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: #171717;
+}
+
+.ravioli-image {
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.detail-text-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.detail-text {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-align: left;
+}
+
+// phone
+@media screen and (max-width: 650px) {
+  .detail-text-container {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 80%;
+  }
+
+  .ravioli-image {
+      border-radius: 10px;
+      max-width: 95%;
+  }
+}
+
+/** CONTACT **/
 
 
+.component-background-contact {
+  overflow-x: hidden;
+  flex-basis: 100%;
+  border-radius: 7%;
+  background-color: #171717;
+  -webkit-overflow-scrolling: touch;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-header {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.address-header, .phone-email-header, .hours-header {
+  color: #fff;
+  font-family: 'Montserrat';
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.contact-info {
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.icon-link-header {
+  transform: scale(.7);
+  padding-left: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/** GALLERY **/
+
+.component-background-gallery {
+  overflow-x: hidden;
+  flex-basis: 100%;
+  background-color: #171717;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  background-color: #171717;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  justify-content: space-between;
+  background-color: #171717;
+}
+
+.column img {
+  margin: 1rem;
+  display: block;
+  background-color: #171717;
+  border-radius: 10px;
+  max-width: 95%;
+}
+
+// phone
+@media screen and (max-width: 600px) {
+  .component-background-gallery {
+      overflow-x: hidden;
+      flex-basis: 100%;
+      background-color: #171717;
+      padding-top: 1rem;
+      padding-right: 0;
+      padding-bottom: 1rem;
+  }
+
+  .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #171717;
+  }
+
+  .column {
+      -ms-flex: 70%; /* IE10 */
+      flex: 70%;
+      max-width: 70%;
+      background-color: #171717;
+      align-items: center;
+  }
+  
+  .column img {
+      margin: 1rem;
+      display: block;
+      background-color: #171717;
+      border-radius: 10px;
+      max-width: 95%;
+  }
+}
+
+// phone
+@media screen and (max-width: 500px) {
+  .component-background-gallery {
+      overflow-x: hidden;
+      flex-basis: 100%;
+      background-color: #171717;
+      padding-top: 1rem;
+      padding-right: 0;
+      padding-bottom: 1rem;
+  }
+
+  .column {
+      -ms-flex: 90%; /* IE10 */
+      flex: 90%;
+      max-width: 90%;
+      background-color: #171717;
+  }
+  
+  .column img {
+      margin: 1rem;
+      border-radius: 10px;
+      display: block;
+      background-color: #171717;
+      max-width: 90%;
+  }
+}
+
+/** MENU **/
+
+.menu-header {
+  font-size: 30px;
+  color: #000;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.component-background-menu {
+  overflow-x: hidden;
+  flex-basis: 100%;
+  background-color: whitesmoke;
+  -webkit-overflow-scrolling: touch;
+}
+
+.main-courses {
+  margin-bottom: 0;
+  font-family: 'Montserrat';
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-bottom: 0;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.divider {
+  border: 1px solid #2f3640;
+  width: 60%;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Montserrat';
+}
+
+.price {
+  display: inline;
+  font-weight: bold;
+}
+
+.menu-section-one {
+  flex-basis: 25%;
+  color: #000;
+  .main-courses {
+      color: #000;
+  }
+}
+.menu-section-two {
+  flex-basis: 25%;
+  color: #000;
+} 
+.menu-section-three {
+  flex-basis: 25%;
+  color: #000;
+}
+.menu-section-four {
+  flex-basis: 25%;
+  color: #000;
+  .desert {
+      color: #000;
+      margin-bottom: 0;
+      font-family: 'Montserrat';
+      text-decoration: underline;
+      text-underline-position: under;
+  }
+}
+
+.booking-tail {
+  font-family: 'Georgia';
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-header {
+      font-size: 30px;
+      color: #000;
+      font-family: 'Montserrat';
+      margin-bottom: 0;
+      margin-top: 1rem;
+  }
+}

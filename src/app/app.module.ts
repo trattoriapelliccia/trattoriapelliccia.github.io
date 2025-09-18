@@ -16,7 +16,7 @@ import { LanguageDialogComponent } from './language-dialog/language-dialog.compo
 import { MatSelectModule } from '@angular/material/select';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, provideHttpClient } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { TranslateService } from '@ngx-translate/core';
 import { MenuComponent } from './menu/menu.component';
@@ -46,7 +46,6 @@ import { GalleryComponent } from './gallery/gallery.component';
         MatDialogModule,
         MatSelectModule,
         // ngx-translate and the loader module
-        HttpClientModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
@@ -55,7 +54,7 @@ import { GalleryComponent } from './gallery/gallery.component';
             }
         })
     ],
-    providers: [TranslateService],
+    providers: [TranslateService, provideHttpClient()],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -5,9 +5,10 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  styleUrls: ['./about.component.scss'],
+  standalone: false
 })
-export class AboutComponent implements OnInit, OnDestroy {
+export class AboutComponent implements OnInit {
   mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
   public ravioliImageDesktopUrl: string = "../../assets/images/pellicciaOutside.jpeg";
@@ -24,10 +25,6 @@ export class AboutComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
 
-  }
-
-  ngOnDestroy(): void {
-    this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 
 }

@@ -15,7 +15,8 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'application-shell',
   templateUrl: './application-shell.component.html',
-  styleUrls: ['./application-shell.component.scss']
+  styleUrls: ['./application-shell.component.scss'],
+  standalone: false
 })
 export class ApplicationShellComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
@@ -38,6 +39,10 @@ export class ApplicationShellComponent implements OnDestroy {
     this.mobileQuery.addListener(this._mobileQueryListener);
     this.language = this.translate.currentLang;
     this.languageCode = this.processLanguageCode(this.language);
+  }
+
+  scrollTo(element: any): void {
+    (document.getElementById(element) as HTMLElement).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 
   processLanguageCode(language : string) {
@@ -79,9 +84,7 @@ export class ApplicationShellComponent implements OnDestroy {
 
   navigate(menuItem: string) {
     this.zone.run(() => { 
-      this.router.navigate(['/' + menuItem]); 
-      this.activeTab = menuItem;
-      sessionStorage.setItem('activeTab', menuItem);
+      this.router.navigate(['#' + menuItem]); 
     });
   }
 

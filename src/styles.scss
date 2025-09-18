@@ -1,11 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'custom_theme.scss';
+@use '@angular/material' as mat;
+@use 'flag-icon-css/sass/flag-icons';
+@include mat.core();
 @import "~@fortawesome/fontawesome-free/css/all.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 16px;}
+
+html, body { height: 100%; width: 100%; }
+body { 
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  font-size: 16px;
+}
 $flag-icon-css-path: '~flag-icon-css/flags';
 $include: gb, fr, jp, es, cn, it, de, nl;
-@import '~flag-icon-css/sass/flag-icons';
 
 .mat-list-item-content {
   font-size: 1.15em !important;
