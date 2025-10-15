@@ -20,12 +20,20 @@
       <p class="short-intro">{{'ABOUT.INTRO_FOUR' | translate}}</p>
   </div>
   <div class="ravioli-container">
-      <img 
-          class="ravioli-image" 
-          [src]="mobileQuery.matches ? ravioliImageMobileUrl : ravioliImageDesktopUrl" 
-          alt="Trattoria Pelliccia Ravioli" 
-          width="mobileQuery.matches ? 300 : ''" 
-          height="mobileQuery.matches ? 200 : ''">
+        <img 
+            class="ravioli-image" 
+            [src]="mobileQuery.matches ? ravioliImageMobileUrl : ravioliImageDesktopUrl" 
+            alt="Trattoria Pelliccia Ravioli" 
+            width="mobileQuery.matches ? 300 : ''" 
+            height="mobileQuery.matches ? 200 : ''">
+        <div class="testimonial">
+            <div class="testimonial-text">
+                <p>{{'ABOUT.TESTIMONIAL_ONE' | translate}}</p>
+            </div>
+            <div class="testimonial-text">
+                <p>{{'ABOUT.TESTIMONIAL_TWO' | translate}}</p>
+            </div>
+        </div>
   </div>
 </div>
 
@@ -99,7 +107,7 @@
 </div>
 
 <!-- CONTACT -->
-<div style="background-color: #ef5777">
+<div style="background-color: #ef5777; border-top: 30px solid #171717;">
   <div id='contact' class="component-background-contact">
     <div>
         <p class="contact-header">{{'CONTACT.CONTACT' | translate}}</p>
